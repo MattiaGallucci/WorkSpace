@@ -1,0 +1,11 @@
+package poo23.bank;
+
+public class DataSetMeasurer<T> {
+	private double sum;
+	private T minimum;
+	private T maximum;
+	private int count;
+	private Measurer<T> measurer;
+	
+	
+}

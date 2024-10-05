@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+function compareNumbers(a, b)
+{
+    return a - b;
+}
+
+var t = [16,-1,10,16,10,4,4,5,1,2,3,2,1];
+
+function removeDup(arr) {
+	return arr.sort(compareNumbers).filter(function(elem, pos) {
+			return arr.indexOf(elem) == pos;
+	});
+};
+
+t = removeDup(t);
+
+document.getElementById("demo").innerHTML = t;
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+package control;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+import javax.sql.DataSource;
+
+import model.ProdottoBean;
+import model.ProdottoDAO;
+
+@WebServlet("/modificaProdotto")
+@MultipartConfig(maxFileSize = 16177215) // 16MB
+public class ModificaProdottoServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+
+    public ModificaProdottoServlet() {
+        super();
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String mode = request.getParameter("mode");
+        ProdottoDAO dbProdotto = new ProdottoDAO();
+        String pathForward = null;
+
+        try {
+            if (mode.equalsIgnoreCase("elimina")) {
+                String prodottoId = request.getParameter("prodotto");
+                dbProdotto.doDelete(prodottoId);
+                pathForward = "catalogo"; // Può essere un servlet o una JSP
+            } else if (mode.equalsIgnoreCase("modifica")) {
+                String id = request.getParameter("prodotto");
+                ProdottoBean prodotto = dbProdotto.doRetrieveByKey(id);
+                request.setAttribute("prodotto", prodotto);
+                pathForward = "./modificaProdotto.jsp";
+            } else if (mode.equalsIgnoreCase("aggiungi")) {
+                request.getRequestDispatcher("/aggiungiProdotto.jsp").forward(request, response);
+                return;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            pathForward = "error.jsp"; // Pagina di errore personalizzata
+        }
+
+        if (pathForward != null) {
+            request.getRequestDispatcher(pathForward).forward(request, response);
+        }
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String nome = request.getParameter("nome");
+        String descrizione = request.getParameter("descrizione");
+        String costo = request.getParameter("costo");
+        String quantita = request.getParameter("quantita");
+        String sesso = request.getParameter("sesso");
+        String categoria = request.getParameter("categoria");
+
+        Part filePart = request.getPart("immagine");
+        String path = filePart.getSubmittedFileName();
+        if (path != null && !path.isEmpty()) {
+            try {
+                ProdottoDAO dbProdotto = new ProdottoDAO();
+                ProdottoBean prodotto = new ProdottoBean();
+                prodotto.setNome(nome.trim());
+                prodotto.setDescrizione(descrizione.trim());
+                prodotto.setCosto(Integer.parseInt(costo));
+                prodotto.setQuantita(Integer.parseInt(quantita));
+                prodotto.setSesso(sesso);
+                prodotto.setImmagine(path);
+                prodotto.setCategoriaNome(categoria);
+
+                dbProdotto.doSave(prodotto);
+                List<ProdottoBean> prodotti = dbProdotto.doRetrieveAll("");
+                request.setAttribute("prodotti", prodotti);
+
+                String uploadPath = getServletContext().getRealPath("") + File.separator + "assets" + File.separator + "img";
+                File uploadDir = new File(uploadPath);
+                if (!uploadDir.exists()) {
+                    uploadDir.mkdirs();
+                }
+                File file = new File(uploadDir, path);
+                try (InputStream fileContent = filePart.getInputStream()) {
+                    Files.copy(fileContent, file.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                }
+
+                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/view/catalogo.jsp");
+                dispatcher.forward(request, response);
+            } catch (SQLException e) {
+                e.printStackTrace();
+                request.setAttribute("errorMessage", "Errore interno.");
+                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/view/error.jsp");
+                dispatcher.forward(request, response);
+                return;
+            }
+        }
+    }
+}

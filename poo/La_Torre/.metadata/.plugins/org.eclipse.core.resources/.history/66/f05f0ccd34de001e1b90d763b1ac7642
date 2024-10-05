@@ -1,0 +1,11 @@
+package poo23;
+
+public class Giocatore {
+	public Pacco pacco;
+
+	public Giocatore(Pacco pacco) {
+		this.pacco = pacco;
+	}
+	
+	
+}

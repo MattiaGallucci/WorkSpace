@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+@font-face{
+	font-family: "Emblema One";
+	src: url("EmblemaOne-Regular.woff");
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: Emblema One, sans-serif;
+	font-size: 150%;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+p {
+	line-height: 5;
+}

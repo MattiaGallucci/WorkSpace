@@ -1,0 +1,471 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "esercizio3.App",
+            "projectName": "13_04_2016"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "poo23.eccezioni.App",
+            "projectName": "eccezioni"
+        },
+        {
+            "type": "java",
+            "name": "BoxDemo",
+            "request": "launch",
+            "mainClass": "box.BoxDemo"
+        },
+        {
+            "type": "java",
+            "name": "Documento",
+            "request": "launch",
+            "mainClass": "document.Documento"
+        },
+        {
+            "type": "java",
+            "name": "RectangleViewer",
+            "request": "launch",
+            "mainClass": "poo23.applicazione_grafica.RectangleViewer",
+            "projectName": "applicazione_grafica"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "poo23.cat_files.App",
+            "projectName": "cat_files"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "oop23.Main"
+        },
+        {
+            "type": "java",
+            "name": "Coppia$Main",
+            "request": "launch",
+            "mainClass": "Coppia$Main"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "htoop22.Bank.App"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "htoop22.BankGui.App"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "htoop22.Lezione1.App"
+        },
+        {
+            "type": "java",
+            "name": "Cacca",
+            "request": "launch",
+            "mainClass": "poo23.Cacca"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "poo23.App"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "main.java.poo23.Esercizio_1_1.Main"
+        },
+        {
+            "type": "java",
+            "name": "CestoNew",
+            "request": "launch",
+            "mainClass": "oop22.CestoNew",
+            "projectName": "CestoFrutta"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "poo23.App",
+            "projectName": "simulazione_2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_11.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_10.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_9.Fibonacci",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "TestComparators",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_8.TestComparators",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_7.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_6.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_5.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_4.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_3.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_2.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Esercizio_1.Main",
+            "projectName": "lambda_expression"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "poo23.App",
+            "projectName": "prova"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "poo23.Main"
+        },
+        {
+            "type": "java",
+            "name": "CompilatoreInterattivo",
+            "request": "launch",
+            "mainClass": "poo23.compilatore_interattivo.CompilatoreInterattivo",
+            "projectName": "reflection"
+        },
+        {
+            "type": "java",
+            "name": "ReflectionInterattiva",
+            "request": "launch",
+            "mainClass": "poo23.reflection_interattiva.ReflectionInterattiva",
+            "projectName": "reflection"
+        },
+        {
+            "type": "java",
+            "name": "ReflectionInterattiva",
+            "request": "launch",
+            "mainClass": "poo23.ReflectionInterattiva"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "coppia.Pair",
+            "projectName": "generics"
+        },
+        {
+            "type": "java",
+            "name": "BoxDemo",
+            "request": "launch",
+            "mainClass": "box.BoxDemo",
+            "projectName": "inferenza"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "oop23.App",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppCinque",
+            "request": "launch",
+            "mainClass": "oop23.AppCinque",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppDue",
+            "request": "launch",
+            "mainClass": "oop23.AppDue",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppQuattro",
+            "request": "launch",
+            "mainClass": "oop23.AppQuattro",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppRectangle",
+            "request": "launch",
+            "mainClass": "oop23.AppRectangle",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppTre",
+            "request": "launch",
+            "mainClass": "oop23.AppTre",
+            "projectName": "HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "BoxDemo",
+            "request": "launch",
+            "mainClass": "box.BoxDemo",
+            "projectName": "box-inferenza"
+        },
+        {
+            "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "coppia.Pair",
+            "projectName": "coppia-generics"
+        },
+        {
+            "type": "java",
+            "name": "Documento",
+            "request": "launch",
+            "mainClass": "document.Documento",
+            "projectName": "document-classi_interne"
+        },
+        {
+            "type": "java",
+            "name": "Ese1",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese1",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese2",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese2",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese3",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese3",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese4",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese4",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese5",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese5",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese6",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese6",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Ese7",
+            "request": "launch",
+            "mainClass": "esercizi.ese.Ese7",
+            "projectName": "esercizi-esercizi"
+        },
+        {
+            "type": "java",
+            "name": "Mattia",
+            "request": "launch",
+            "mainClass": "oop21.Mattia",
+            "projectName": "oop21-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "oop21.Prova.App",
+            "projectName": "oop21-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "App(2)",
+            "request": "launch",
+            "mainClass": "oop23.App",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppCinque(1)",
+            "request": "launch",
+            "mainClass": "oop23.AppCinque",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppDue(1)",
+            "request": "launch",
+            "mainClass": "oop23.AppDue",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppQuattro(1)",
+            "request": "launch",
+            "mainClass": "oop23.AppQuattro",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppRectangle(1)",
+            "request": "launch",
+            "mainClass": "oop23.AppRectangle",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "AppTre(1)",
+            "request": "launch",
+            "mainClass": "oop23.AppTre",
+            "projectName": "oop23-HelloMaven"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "oop23.Main",
+            "projectName": "oop23-casting"
+        },
+        {
+            "type": "java",
+            "name": "Prova_Persona",
+            "request": "launch",
+            "mainClass": "oop23.Prova_Persona",
+            "projectName": "oop23-persone"
+        },
+        {
+            "type": "java",
+            "name": "App(3)",
+            "request": "launch",
+            "mainClass": "oop23.App",
+            "projectName": "oop23-rettangolo"
+        },
+        {
+            "type": "java",
+            "name": "App(4)",
+            "request": "launch",
+            "mainClass": "poo21.Laboratorio3.App",
+            "projectName": "poo21-Laboratorio3"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "poo23.Main",
+            "projectName": "poo23-magazzino"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusToFahrenheit",
+            "request": "launch",
+            "mainClass": "temperature.CelsiusToFahrenheit",
+            "projectName": "temperature-temp-converter"
+        },
+        {
+            "type": "java",
+            "name": "FahrenheitToCelsius",
+            "request": "launch",
+            "mainClass": "temperature.FahrenheitToCelsius",
+            "projectName": "temperature-temp-converter"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "poo23.Main",
+            "projectName": "universita"
+        },
+        {
+            "type": "java",
+            "name": "Macchina",
+            "request": "launch",
+            "mainClass": "vehicle.Macchina",
+            "projectName": "vehicle-macchina"
+        }
+    ]
+}

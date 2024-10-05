@@ -1,0 +1,34 @@
+127.0.0.1 - - [21/Jun/2024:14:04:18 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1332
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 184720
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/images/categoria-anelli.webp HTTP/1.1" 200 125660
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:20 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:21 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 31490048
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:31 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:32 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:33 +0200] "GET /GGJewelry/mostraMetodiDiPagamento.jsp HTTP/1.1" 200 133
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:34 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:36 +0200] "GET /GGJewelry/mostraIndirizzi.jsp HTTP/1.1" 200 1150
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:37 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:38 +0200] "GET /GGJewelry/mostraUtenti.jsp HTTP/1.1" 200 133
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:41 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/mostraProdotti.jsp HTTP/1.1" 200 2503
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/images/tshirt_uomo.jpg HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/images/jeans_donna.jpg HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/images/giacca_uomo.jpg HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/images/abito_donna.jpg HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:42 +0200] "GET /GGJewelry/images/DA-METTERE.jpg HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:43 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:44 +0200] "GET /GGJewelry/mostraOrdini.jsp HTTP/1.1" 200 133
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:45 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [21/Jun/2024:14:04:46 +0200] "GET /GGJewelry/mostraInserimenti.jsp HTTP/1.1" 200 772

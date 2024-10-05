@@ -1,0 +1,16 @@
+Cagliari 45 17 11 2 42 11
+Inter 41 16 9 5 41 19
+Juventus 38 15 8 7 43 20
+Milan 36 13 10 7 38 24
+Fiorentina 36 15 6 9 40 33
+Napoli 31 10 11 9 24 21
+Torino 30 11 8 11 20 31
+Lazio 29 11 7 12 33 32
+Vicenza 29 11 7 12 32 31
+Bologna 28 6 16 8 22 24
+Roma 28 8 12	10 27 36
+Verona 26 8 10 12 26 30
+Sampdoria 24 6 12 12 22 37
+Brescia 20 5 10 15 20 35
+Palermo 20 5 10 15 23 45
+Bari 19 5 9 16 11 35

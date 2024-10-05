@@ -1,0 +1,9 @@
+Gorizia GO Friuli-Venezia Giulia,34742
+Pordenone PN Friuli-Venezia Giulia,51139
+TRIESTE TS Friuli-Venezia Giulia,204234
+Udine UD Friuli-Venezia Giulia,99341
+Frosinone FR Lazio,46120
+Latina LT Lazio,126151
+Rieti RI Lazio,47552
+ROMA RM Lazio,2873494
+Viterbo VT Lazio,67488

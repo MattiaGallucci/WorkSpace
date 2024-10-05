@@ -1,0 +1,1 @@
+Prof. non sono riuscito a sviluppare il programma utilizzando lo stack dinamico

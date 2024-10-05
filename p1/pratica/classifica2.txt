@@ -1,0 +1,20 @@
+ Alexander Albon 	THA	92 Red Bull Racing Honda
+	Sebastian Vettel 	GER  	240 Ferrari
+ Antonio Giovinazzi 	ITA	14	Alfa Romeo Racing Ferrari
+Valtteri Bottas 	FIN  	326 Mercedes
+ Carlos Sainz 	ESP 	96 McLaren Renault
+ Charles Leclerc 	MON  	264 Ferrari
+Daniel Ricciardo 	AUS 	54 Renault 
+	Daniil Kvyat 	RUS 	37	Scuderia Toro Rosso Honda 
+	George Russell 	GBR 	0	Williams Mercedes
+Kevin Magnussen 	DEN 	20	Haas Ferrari
+	Kimi Raikkonen 	FIN 	43	Alfa Romeo Racing Ferrari
+	Lance Stroll 	CAN  	21	Racing Point BWT Mercedes
+	Lando Norris 	GBR 	49	McLaren Renault
+    Lewis Hamilton GBR  413 Mercedes 
+Max Verstappen 	NED  	278 Red Bull Racing Honda 
+Nico Hulkenberg 	GER 37	Renault 
+Pierre Gasly 	FRA 	95 Scuderia Toro Rosso Honda 
+	Robert Kubica 	POL 	1	Williams Mercedes 
+	Romain Grosjean 	FRA 	8	Haas Ferrari 
+Sergio Perez 	MEX 	52 	Racing Point BWT Mercedes

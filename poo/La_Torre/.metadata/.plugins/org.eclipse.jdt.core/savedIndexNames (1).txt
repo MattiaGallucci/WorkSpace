@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\.metadata\.plugins\org.eclipse.jdt.core
+1731376042.index
+3997306427.index
+288303691.index
+3427731351.index
+1865797976.index
+3269834161.index
+711181715.index

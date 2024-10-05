@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div onmouseover="mover(this)" onmouseout="mout(this)"
+style="background-color:yellow;width:120px;height:30px;padding:40px;">
+Mouse Over Me</div>
+<br>
+<div onmouseover="mover(this)" onmouseout="mout(this)"
+style="background-color:cyan;width:120px;height:30px;padding:40px;">
+Mouse Over Me</div>
+<script>
+function mover(obj) {
+	obj.innerHTML = "Thank You";
+	obj.style.fontSize="20px";
+	obj.style.color="red";
+}
+
+function mout(obj) {
+	obj.innerHTML = "Mouse Over Me";
+	obj.style.fontSize="10px";
+	obj.style.color="black";
+}
+
+</script>
+
+</body>
+</html>

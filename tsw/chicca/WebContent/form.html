@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MY GF &lt;3</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form action="">
+			<fieldset>
+				<legend><b>Dettagli</b></legend>
+					<label>Tipologia</label>
+					<select name="tipologia">
+						<option value="arrabbiata">Chicca arrabbiata</option>
+						<option value="triste">Chicca triste</option>
+						<option value="felice">Chicca felice</option>
+						<option value="dormigliona">Chicca dormigliona</option>
+					</select>
+					<br><br>
+					<label>Quantità</label>
+						<input type="number" min="1" max="5" value="1">
+					<br><br>
+					<label>Extra</label>
+						<br>
+						<input type="checkbox" name="extra" value="regalo">
+						<label>Confezione regalo</label>
+			</fieldset>
+			<br><br>
+			<fieldset>
+				<legend><b>Spedizione</b></legend>
+				<p>
+					Nome <input type="text" name="nome" ><br>
+					Cognome <input type="text" name="cognome"><br>
+					Indirizzo <input type="text" name="indirizzo"><br>
+					Città <input type="text" name="citta"><br>
+					Provincia <input type="text" name="provincia" placeholder="AA"><br>
+					ZIP <input type="text" name="zip"><br>
+					Email <input type="email" name="email"><br>
+					Telefono <input type="tel" name="telefono">
+					<br><br>
+					Spedizione veloce<input type="radio" name="tipologiaSpedizione" value="veloce"><br>
+					Spedizione standard<input type="radio" name="tipologiaSpedizione" value="standard"><br>
+					Spedizione eco<input type="radio" name="tipologiaSpedizione" value="eco"><br>
+					<br><br>
+					<label>Indicazioni aggiuntive</label>
+					<br>
+					<textarea rows="10" cols="40" name="indicazioni"></textarea>
+				</p>
+			</fieldset>
+			<br>
+			<button type="submit">Ordina</button>&nbsp;&nbsp;&nbsp;
+			<button type="reset">Annulla ordine</button>
+		</form>
+	</body>
+</html>

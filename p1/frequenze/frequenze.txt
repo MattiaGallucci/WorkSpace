@@ -1,0 +1,89 @@
+CRC Targato Italia, 	92.80
+Kiss Kiss Italia, 	94.50
+m2o, 	92.60
+m2o, 	97.70
+R 101, 	95.60
+R 101, 	98.90
+R 101, 	102.30
+Radio 105, 	100.80
+Radio 105, 	104.80
+Radio 105, 	105.00
+Radio 24, 	101.60
+Radio 24, 	103.50
+Radio Alfa, 	103.00
+Radio Amore, 	94.70
+Radio Amore, 	101.10
+Radio Antenna 1, 	105.30
+Radio Antenna Uno, 	104.00
+Radio Azzurra, 	101.00
+Radio Bussola, 24 	88.50
+Radio Bussola, 24 	99.70
+Radio Bussola, 24 	100.60
+Radio Bussola, 24 	106.50
+Radio capital, 	88.20
+Radio capital, 	107.40
+Radio Castelluccio, 	103.20
+Radio Cuore, 	94.90
+Radio Deejay, 	95.90
+Radio Deejay, 	98.40
+Radio Deejay, 	101.30
+Radio Deejay, 	105.80
+Radio Diffusione Irno, 	100.20
+Radio Ibiza, 	90.60
+Radio Ibiza, 	106.30
+Radio Italia Anni 60, 	106.70
+Radio Italia Solo Musica Italiana, 	102.00
+Radio Italia Solo Musica Italiana, 	104.30
+Radio Kiss Kiss, 	88.80
+Radio Kiss Kiss, 	89.20
+Radio Kiss Kiss, 	89.40
+Radio Kiss Kiss, 	92.00
+Radio Kiss Kiss Italia, 	88.90
+Radio Kiss Kiss Italia, 	90.30
+Radio Kiss Kiss Italia, 	90.90
+Radio Kiss Kiss Napoli, 	101.80
+Radio Magic, 	100.40
+Radio Magic, 	104.60
+Radio Magic 2, 	105.20
+Radio Margherita, 	96.10
+Radio Maria, 	87.50
+Radio Maria, 	105.50
+Radio Mariconda Amica, 	106.90
+Radio Marte, 	91.20
+Radio Marte, 	100.50
+Radio MPA Palomonte, 	94.2
+Radio Norba, 	89.80
+Radio Norba, 	93.90
+Radio Orion, 	101.50
+Radio Potenza Centrale, 	108.00
+Radio Punto Zero, 	96.40
+Radio Punto Zero, 	97.30
+Radio Punto Zero, 	97.50
+Radio Quinta Rete, 	102.80
+Radio Radicale,	87.90
+Radio Stella Salerno, 	98.70
+Radio Subasio, 	95.40
+Radio Subasio, 	96.60
+Radio Subasio, 	99.40
+Rai GR Parlamento, 	92.95
+Rai Isoradio, 	103.30
+Rai Radio 1, 	91.50
+Rai Radio 1, 	95.10
+Rai Radio 2, 	93.20
+Rai Radio 2, 	97.10
+Rai Radio 3, 	99.10
+RCA Divina FM, 	92.30
+RDS, 	98.20
+RDS Radio Dimensione Suono, 	98.80
+RDS Radio Dimensione Suono, 	107.20
+RMC 1, 	107.70
+RPN Radio Punto Nuovo, 	100.00
+RTL, 	91.70
+RTL, 	96.80
+RTL, 	97.90
+RTL, 	102.60
+TRBC Tele Radio Buon Consiglio, 	93.50
+TRBC Tele Radio Buon Consiglio, 	103.70
+TRBC Tele Radio Buon Consiglio, 	105.70
+Virgin Radio, 	90.00
+Virgin Radio, 	106.00

@@ -1,0 +1,25 @@
+Garda 370 	346   65   Lombardia Veneto Trentino-Alto-Adige
+Maggiore 212 	372  193   Lombardia Piemonte Svizzera
+Como 146 	410  	197  Lombardia 	
+Trasimeno 128 	6 	 	258 	Umbria 	
+Bolsena   114 	146 	 	305 	Lazio 		
+Iseo  65 	251 		185 	Lombardia 	
+Varano  60 	6 	 	0 	Puglia 	
+Bracciano 	57 	160 		164 	Lazio 		
+Lesina 	51 	2 		0 	Puglia 		
+Lugano 	50 	288 		271 	Lombardia Svizzera 	
+Omodeo 	22 	61  	118 	Sardegna 	
+Orta 	18 	143 	 	290 	Piemonte 	
+Coghinas 	18 	50 		164 	Sardegna 	
+Varese 	15 	26 	 	238 	Lombardia 		
+Vico 	12 	50 	 	507 	Lazio 		
+Idro 	11 	122 		368 	Lombardia Trentino-Alto-Adige 	
+Santa Croce 	8 	44 	 	386 	Veneto 	
+Massaciuccoli 	7 	3 	2 	Toscana 				
+Albano 	6 	168 		293 	Lazio 		
+Mezzola 	6 	69 		200 	Lombardia 		
+Viverone 	6 	50 		230 	Piemonte 	
+Annone 	6 	11 		224 	Lombardia 				
+Caldonazzo 	6 	49  	449 	Trentino-Alto-Adige 		
+Pusiano 	5 	24    257 	Lombardia 	
+Chiusi 	4 	8 		243 	Toscana 		

@@ -1,0 +1,7 @@
+package poo23.bank;
+
+public class BankAccount {
+	public BankAccount(){
+	balance = 0;
+	}
+}

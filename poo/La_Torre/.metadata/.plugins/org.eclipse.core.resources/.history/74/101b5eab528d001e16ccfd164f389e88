@@ -1,0 +1,13 @@
+package poo23.choice_gui;
+
+/**
+ * Hello world!
+ *
+ */
+public class ChoiceViewer 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

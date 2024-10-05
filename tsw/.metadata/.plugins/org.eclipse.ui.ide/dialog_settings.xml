@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\matti\Downloads\Progetto-TSW-main\Progetto-TSW-main\ProgettoTSW"/>
+			<item value="C:\Users\matti\Desktop\tsw\GGJewelry"/>
+			<item value="C:\Users\matti\Downloads\QuaLaZampa-master\QuaLaZampa-master\QuaLaZampa"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\2 semestre\TSW\tsw\Web"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\2 semestre\TSW\tsw\jquery-getting-started"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\matti\Downloads\ajax-example.zip"/>
+			<item value="C:\Users\matti\Desktop\tsw\javascript\WebContent\lamp.html"/>
+			<item value="C:\Users\matti\Downloads\javascript.zip"/>
+			<item value="C:\Users\matti\Downloads\layout-responsive.zip"/>
+			<item value="C:\Users\matti\Downloads\starbuzz.zip"/>
+			<item value="C:\Users\matti\Downloads\lounge2.zip"/>
+			<item value="C:\Users\matti\Downloads\StorageSession.zip"/>
+			<item value="C:\Users\matti\Downloads\journal.zip"/>
+			<item value="C:\Users\matti\Downloads\lounge1.zip"/>
+			<item value="C:\Users\matti\Downloads\ProtectionFilters.zip"/>
+			<item value="C:\Users\matti\Downloads\Excel.zip"/>
+			<item value="C:\Users\matti\Downloads\Protection.zip"/>
+			<item value="C:\Users\matti\Downloads\PhotoDynamic.zip"/>
+			<item value="C:\Users\matti\Downloads\FCheck.zip"/>
+			<item value="C:\Users\matti\Downloads\jsp.zip"/>
+			<item value="C:\Users\matti\Downloads\Redirect.zip"/>
+			<item value="C:\Users\matti\Downloads\cercabirraIV.zip"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\2 semestre\TSW\tsw\SumNumbers.zip"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\2 semestre\TSW\tsw\test-app.zip"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\2 semestre\TSW\tsw\jquery-getting-started.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.web.ui.internal.wizards.SimpleWebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\matti\git\TSWproject"/>
+			<item value="C:\Users\matti\git\p2"/>
+			<item value="C:\Users\matti\git\p"/>
+			<item value="C:\Users\matti\git\a"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="true"/>
+		<item key="DIALOG_WIDTH" value="662"/>
+		<item key="DIALOG_HEIGHT" value="434"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

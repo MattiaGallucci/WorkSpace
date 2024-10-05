@@ -1,0 +1,35 @@
+html {
+   width: 400px;
+   margin: 10px auto;
+}
+
+.panel {
+ padding: 10px;
+ background-color: #fdfaa2;
+ border: 2px solid blue;
+ border-radius: 10px;
+}
+
+.panel h3 {
+   text-align: center;
+}
+
+hr {
+	border-top: 2px solid blue;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.error {
+	color: red;
+	font-size: 90%;
+}
+
+form input[type=text], form input[type=number], 
+form input[type=password]  {
+   float:right;
+    clear:both;
+	width: 80%;
+}
+
+

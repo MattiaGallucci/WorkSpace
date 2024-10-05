@@ -1,0 +1,15 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    // ! INIZIO NUOVO
+    "java.jdt.ls.java.home": "C:/jdk-17.0.8",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:/jdk-17.0.8",
+            "default": true
+        }
+    ],
+    "maven.view": "flat",
+    "java.debug.settings.onBuildFailureProceed": true
+    // ! FINE NUOVO
+}

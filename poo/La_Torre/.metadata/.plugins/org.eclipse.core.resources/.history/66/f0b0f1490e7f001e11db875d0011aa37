@@ -1,0 +1,12 @@
+package poo23.bank;
+
+public class AccountTest {
+	public static void main(String[] args) {
+		BankAccount momsSavings = new SavingsAccount(0.5);
+		BankAccount harrysChecking = new CheckingAccount(100);
+		momsSavings.deposit(10000);
+		momsSavings.transfer(2000, harrysChecking);
+		harrysChecking.withdraw(1500);
+		harrysChecking.withdraw(80);
+	}
+}

@@ -1,0 +1,11 @@
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/attuatori/IAttuatore.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/comandi/ICommand.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/comandi/CommandRiscaldamentoCaldo.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/attuatori/Riscaldamento.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/comandi/CommandRiscaldamentoFreddo.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/DomoticServer.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/Impianto.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/sensori/SensoreTemperatura.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/MainApp.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/sensori/Sensor.java
+/Users/christianesposito/OneDrive - Università di Salerno/Corsi/Programmazione OO/Materiale 2021_2022/SlideTeoria/Impianto/src/main/java/it/unisa/impianto/sensori/ISubject.java

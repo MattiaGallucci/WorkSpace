@@ -1,0 +1,41 @@
+127.0.0.1 - - [31/May/2024:15:36:36 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:37 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:37 +0200] "GET /GGJewelry/images/categoria-anelli.webp HTTP/1.1" 200 125660
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:37 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 184720
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:37 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1332
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:38 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:38 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:38 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:39 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:39 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 31096832
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:45 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:45 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:46 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:36:47 +0200] "GET /GGJewelry/mostraCategorie.jsp HTTP/1.1" 200 347
+127.0.0.1 - - [31/May/2024:15:38:00 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:00 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:04 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:06 +0200] "GET /GGJewelry/mostraIndirizzi.jsp HTTP/1.1" 200 910
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:07 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:08 +0200] "GET /GGJewelry/mostraCategorie.jsp HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:38:09 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 281
+127.0.0.1 - - [31/May/2024:15:40:27 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1332
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/images/categoria-anelli.webp HTTP/1.1" 200 125660
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 184720
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 139
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:28 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33783808
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:30 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 281
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:31 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:32 +0200] "GET /GGJewelry/mostraIndirizzi.jsp HTTP/1.1" 200 910
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:34 +0200] "GET /GGJewelry/mostraCategorie.jsp HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [31/May/2024:15:40:34 +0200] "-" 400 -

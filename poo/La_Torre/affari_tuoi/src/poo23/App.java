@@ -1,0 +1,18 @@
+package poo23;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class App {
+
+	public static void main(String[] args) {
+		Random random = new Random();
+		List<Pacco> pacchi = new ArrayList<Pacco>();
+		for(int i=0; i<20; i++) {
+			pacchi.add(new Pacco())
+		}
+
+	}
+
+}

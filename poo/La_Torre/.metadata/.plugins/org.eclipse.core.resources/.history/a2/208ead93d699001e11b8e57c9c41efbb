@@ -1,0 +1,9 @@
+package esercizio3;
+
+import esercizio1.Immobile;
+
+public class App {
+	public static void main(String[] args) {
+		Immobile i1 = new Immobile(null, "IMM1", 2);
+	}
+}

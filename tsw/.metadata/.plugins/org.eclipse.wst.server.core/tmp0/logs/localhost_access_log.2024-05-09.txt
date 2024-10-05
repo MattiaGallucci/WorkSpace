@@ -1,0 +1,253 @@
+127.0.0.1 - - [09/May/2024:13:44:34 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:34 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ HTTP/1.1" 200 1600
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:35 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/Ajax.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:35 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/ajaxLogin.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:35 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Struttura.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:35 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:35 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Bottone.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_carrello.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/account.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Benvenuto.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/0scorrimento.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageScorrimento.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/1scorrimento.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/3scorrimento.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/4scorrimento.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/2scorrimento.jpeg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageZoom.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategoriaGatto.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieCane.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieAnimali.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_gatto.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieUccello.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Cuccia_per_gatto.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_cane.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Salviette_detergenti_per_animali.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Attrezzi_Pappagalli.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/altalenaBird.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/casetta_legno_coniglio.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/GabbiaCriceti.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/cat.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/coniglio.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:41 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/pappagallo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:44:59 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo?action=aggiungi&id=2 HTTP/1.1" 500 3961
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:03 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo2?nascosto=2&scelta=3 HTTP/1.1" 200 3962
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:06 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Ordini?action=effettuaPagamento HTTP/1.1" 500 1600
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:26 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 6
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:26 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:26 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Menu?tipo=animali%20piccola%20taglia HTTP/1.1" 200 5026
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:49 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiCarrello.jsp HTTP/1.1" 200 3962
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:52 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Ordini?action=effettuaPagamento HTTP/1.1" 200 8874
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:45:52 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Checkout.css HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:07 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Pagamento?cardnumber=1111-2222-3333-4444&cvv=123&sameadr=vecchioIndirizzo HTTP/1.1" 200 3311
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Ordini?action=ordiniEffettuati HTTP/1.1" 200 3350
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:16 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Logout HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:16 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/PageLogin.jsp HTTP/1.1" 200 1600
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:27 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:27 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ControlloAdmin HTTP/1.1" 200 1068
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:28 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ControlloAdmin?azione=ordiniNominativo HTTP/1.1" 200 902
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:38 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaCliente HTTP/1.1" 200 711
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:46:45 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaCliente HTTP/1.1" 200 705
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:00 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaCliente HTTP/1.1" 200 705
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:05 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaCliente HTTP/1.1" 200 705
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:11 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaCliente HTTP/1.1" 200 968
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:16 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ControlloAdmin?azione=controllo HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:16 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Amministratore HTTP/1.1" 200 6925
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:19 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Amministratore?action=modifica&id=8 HTTP/1.1" 500 1583
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:32 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ControlloAdmin?azione=ordiniData HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [09/May/2024:13:47:39 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/CercaClienteData HTTP/1.1" 200 968
+127.0.0.1 - - [09/May/2024:15:15:47 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ HTTP/1.1" 200 1600
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/Ajax.js HTTP/1.1" 200 89390
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/logo.png HTTP/1.1" 200 18156
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Login.css HTTP/1.1" 200 1000
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Struttura.css HTTP/1.1" 200 2575
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:47 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/ajaxLogin.js HTTP/1.1" 200 1149
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:15:48 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_utente.jpg HTTP/1.1" 200 8369
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:02 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:02 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ControlloAdmin HTTP/1.1" 200 1068
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:02 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/account.png HTTP/1.1" 200 11806
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:02 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Bottone.css HTTP/1.1" 200 1368
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 6
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_carrello.png HTTP/1.1" 200 34566
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Benvenuto.png HTTP/1.1" 200 35380
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/0scorrimento.jpg HTTP/1.1" 200 24600
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/1scorrimento.jpeg HTTP/1.1" 200 36960
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/4scorrimento.jpeg HTTP/1.1" 200 62636
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategoriaGatto.png HTTP/1.1" 200 11872
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/2scorrimento.jpeg HTTP/1.1" 200 29725
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:09 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/3scorrimento.jpeg HTTP/1.1" 200 57058
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageScorrimento.js HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieCane.png HTTP/1.1" 200 88511
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageZoom.js HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieAnimali.png HTTP/1.1" 200 43306
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieUccello.png HTTP/1.1" 200 33371
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Cuccia_per_gatto.jpg HTTP/1.1" 200 136241
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_gatto.png HTTP/1.1" 200 590051
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_cane.png HTTP/1.1" 200 882707
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Salviette_detergenti_per_animali.jpg HTTP/1.1" 200 34970
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/altalenaBird.jpg HTTP/1.1" 200 56074
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Attrezzi_Pappagalli.jpg HTTP/1.1" 200 31705
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/casetta_legno_coniglio.jpg HTTP/1.1" 200 50811
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/GabbiaCriceti.jpg HTTP/1.1" 200 48656
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/cat.png HTTP/1.1" 200 8350
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/coniglio.png HTTP/1.1" 200 49413
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/pappagallo.png HTTP/1.1" 200 32727
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_catalogo.png HTTP/1.1" 200 4865
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:48 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:16:48 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:23:59 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo?action=dettagli&id=8 HTTP/1.1" 500 3363
+127.0.0.1 - - [09/May/2024:15:33:49 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:49 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:54 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:33:55 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [09/May/2024:15:35:14 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:15 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:16 +0200] "GET /GGJewelry/ HTTP/1.1" 200 346
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:16 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:16 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 100
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:35:16 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "GET /GGJewelry/ HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 145
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:38 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:39 +0200] "GET /GGJewelry/ HTTP/1.1" 200 359
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:37:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:23 +0200] "GET /GGJewelry/ HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:23 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 145
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:23 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:38:23 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "GET /GGJewelry/ HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:39:34 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:52 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 284
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:52 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:40:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:40 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:52 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:41:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 361
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:01 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:01 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 353
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:51 +0200] "GET /GGJewelry/ HTTP/1.1" 200 383
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 436
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:51 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:42:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:16 +0200] "GET /GGJewelry/ HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:16 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "GET /GGJewelry/ HTTP/1.1" 200 408
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 424
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:43:58 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:03 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:03 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:03 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:24 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:24 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:24 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:45:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:46:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:46:27 +0200] "GET /GGJewelry/ HTTP/1.1" 404 148
+127.0.0.1 - - [09/May/2024:15:47:38 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:38 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:39 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 423
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:39 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:43 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:43 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:55 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:55 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 424
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:55 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:15:47:55 +0200] "-" 400 -
+127.0.0.1 - - [09/May/2024:16:04:45 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+127.0.0.1 - - [09/May/2024:16:04:45 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:45 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:52 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:52 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:04:53 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:05:18 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:05:18 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 558
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:06:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:06:36 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:06:36 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 654
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 650
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:31 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:31 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 654
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:45 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:45 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 655
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:52 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:07:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 655
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:08:29 +0200] "GET /GGJewelry/ HTTP/1.1" 200 993
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:08:29 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 655
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:08:29 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:08:29 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:04 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 653
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:04 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:59 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 610
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:59 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:09:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:10:14 +0200] "GET /GGJewelry/ HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:10:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 664
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:10:15 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [09/May/2024:16:10:15 +0200] "-" 400 -

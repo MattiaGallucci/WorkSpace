@@ -1,0 +1,43 @@
+127.0.0.1 - - [26/May/2024:12:23:12 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:12 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 184720
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1332
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/images/categoria-anelli.webp HTTP/1.1" 200 125660
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:13 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:14 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:14 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 34041791
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:27 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 232
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:27 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:34 +0200] "GET /GGJewelry/mostraIndirizzi.jsp HTTP/1.1" 200 889
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:45 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:23:45 +0200] "GET /GGJewelry/index.jsp HTTP/1.1" 200 232
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/catalogo HTTP/1.1" 200 13625
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Images/logopreciso.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Css/header.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/JS/searchFunctions.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Css/home.css HTTP/1.1" 200 3768
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Css/footer.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Images/img2.png HTTP/1.1" 200 182020
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:08 +0200] "GET /ProgettoTSW/Images/img36.jpg HTTP/1.1" 200 411113
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:09 +0200] "GET /ProgettoTSW/JS/slider.js HTTP/1.1" 200 2317
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:09 +0200] "GET /ProgettoTSW/Images/backgroundImage.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:09 +0200] "GET /ProgettoTSW/Images/slideshow4.jpg HTTP/1.1" 200 439572
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:09 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:13 +0200] "GET /ProgettoTSW/Images/image4.jpg HTTP/1.1" 200 5116949
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:17 +0200] "GET /ProgettoTSW/Images/slideshow5.jpg HTTP/1.1" 200 429534
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:19 +0200] "GET /ProgettoTSW/select?type=prodotto&prodotto=4X6AYOAF HTTP/1.1" 200 12425
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:20 +0200] "GET /ProgettoTSW/Css/prodotto.css HTTP/1.1" 200 6296
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:20 +0200] "GET /ProgettoTSW/JS/addedToCart.js HTTP/1.1" 200 860
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:20 +0200] "GET /ProgettoTSW/JS/recensione.js HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:31 +0200] "GET /ProgettoTSW/catalogo?filter=offerta HTTP/1.1" 200 20542
+0:0:0:0:0:0:0:1 - - [26/May/2024:12:24:31 +0200] "GET /ProgettoTSW/Css/catalogo.css HTTP/1.1" 200 4067

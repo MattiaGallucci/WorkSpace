@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;esercizio2.Keylist&apos; to &apos;KeyList&apos;&#x0D;&#x0A;- Original project: &apos;13_04_2016&apos;&#x0D;&#x0A;- Original element: &apos;esercizio2.Keylist&apos;&#x0D;&#x0A;- Renamed element: &apos;esercizio2.KeyList&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Keylist&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;esercizio2{Keylist.java[Keylist" matchStrategy="1" name="KeyList" qualified="false" references="true" similarDeclarations="false" stamp="1702550039073" textual="false" version="1.0"/>
+</session>

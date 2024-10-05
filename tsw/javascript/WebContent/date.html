@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Eventi</title>
+</head>
+
+<script>
+function qcheck(item, min, max) {
+	returnVal = false;
+	if((parseInt(item.value) < min) ||
+	  (parseInt(item.value) > max)) {
+	  		alert(item.name+" deve essere tra "+min+ " e "+max);
+	 } else returnVal = true;
+	 
+	 return returnVal; 	
+}
+
+function validate(theform) {
+   if(qcheck(theform.quantity,0, 999)) {
+     alert("ok"); return true;
+   } else {
+     alert("no accept"); return false;
+   }
+}
+</script>
+
+<body>
+
+<form name="worder" action="#" method="post" onsubmit="qcheck(this,0,999)">
+Quantity: <input type="text" name="quantity">
+<br>
+<input type="submit" value="Transmit" onclick="validate(this.form)">
+</form>
+
+
+<p id="demo">-</p>
+
+<form>
+    <input type="text" onblur="alert(this.value)" value="mik"><br>
+    
+    <input id="bottone1" name="bottone1" type="button" value="Click 1" onclick="myFunction(event)"><br>
+    <input id="bottone2" name="bottone2" type="button" value="Click 2" onclick="myFunction(event)"><br>
+    <input id="bottone3" name="bottone3" type="button" value="Click 3" onclick="myFunction(event)"><br>
+    <input id="bottone4" name="bottone4" type="button" value="Click 4" onclick="myFunction(event)"><br>
+
+    <input id="bottone5" name="bottone5" type="button" value="Click 5" onclick="myFunction2(this)"><br>
+    <input id="bottone6" name="bottone6" type="button" value="Click 6" onclick="myFunction2(this)"><br>
+</form>
+
+<p>Par 1</p>
+<br>
+<p>Par 2</p>
+<br>
+<p>Par 3</p>
+<br>
+<p>Par 4</p>
+<br>
+<p>Par 5</p>
+ 
+<button onclick="change()">Change</button>
+
+<script>
+ function myFunction(e) {
+    e = e || window.event;
+ 	e.preventDefault();
+ 	document.getElementById(e.target.name).value += "x "+document.URL;
+ 	 
+ }
+ 
+  function myFunction2(obj) {
+ 	obj.value += "y";	 
+ }
+ 
+  function change() {
+  var xp = document.getElementsByTagName("p");
+  for(i in xp) {
+  	xp[i].style.backgroundColor = "red";
+	//debugger; 
+  	xp[i].setAttribute("style", "background-color: green;");
+
+  }
+  }
+ 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+package poo23.calcolatrice_grid_layout;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class App {
+    public static void main( String[] args ){
+    	JButton button 1 = new JButton("1");
+    	JPanel numberPanel = new JPanel();
+    	numberPanel.setLayout(new GridLayout(4, 3));
+    	numberPanel.add(button7);
+    	numberPanel.add(button8);
+    	numberPanel.add(button9);
+    	numberPanel.add(button4);
+    }
+}

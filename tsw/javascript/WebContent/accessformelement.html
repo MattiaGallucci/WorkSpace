@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+        <h3>A demonstration of how to access a FORM element</h3>
+        
+        <form id="myForm" action="/action_page.php">
+            First name: <input type="text" name="fname" value="Donald"><br>
+                Last name: <input type="text" name="lname" value="Duck"><br>
+                    <input type="submit" value="Submit">
+        </form>
+        
+        <p>Click the "Try it" button to get the URL for where to send the form data when the form above is submitted.</p>
+        
+        <button onclick="myFunction()">Try it</button>
+        
+        <p id="demo"></p>
+        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myForm").action;
+                document.getElementById("demo").innerHTML = x;
+            }
+        </script>
+        
+    </body>
+</html>
+

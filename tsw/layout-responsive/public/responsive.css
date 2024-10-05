@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+header, footer {
+	padding: 0px;
+	margin: 20px 0px;
+}
+
+#page {
+	max-width: 1000px;
+	margin: auto;
+}
+
+section {
+	width: 60%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+aside {
+	width: 19%;
+	float: left;
+	margin-left: 1%;
+	margin-bottom: 20px;
+}
+
+footer {
+	clear: both;
+}
+
+@media screen and (max-width: 950px) {
+	aside {
+		width: 39%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	section, aside {
+		width: 100%;
+		margin-left: 0px;
+	}
+}

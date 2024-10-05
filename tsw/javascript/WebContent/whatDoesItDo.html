@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var t = [10, 10, 7, 7, 5, 5, 5, 2, -1, -1,-2];
+function whatDoesItDo(arr) {
+  return arr.sort().filter(function(elem, pos) {
+  return arr.indexOf(elem) == pos;
+  });
+}
+
+t = whatDoesItDo(t);
+document.getElementById("demo").innerHTML = t;
+
+</script>
+
+</body>
+</html>

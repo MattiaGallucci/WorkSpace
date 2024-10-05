@@ -1,0 +1,1343 @@
+127.0.0.1 - - [10/May/2024:08:54:35 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 789
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:36 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:37 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:37 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:51 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:51 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:54:51 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 426
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:14 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:40 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 494
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:40 +0200] "GET /GGJewelry/css/Struttura.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:40 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:55:40 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:28 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:28 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:28 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 813
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:56:42 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:57:04 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:57:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 828
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:57:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:57:04 +0200] "GET /GGJewelry/styles/Mark%20Simonson%20%20Proxima%20Nova%20Regular.otf HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 814
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:58:44 +0200] "GET /GGJewelry/styles/Proxima-Nova-Regular.woff HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:32 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 817
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:08:59:33 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1345
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 903
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:06:50 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:07:12 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1341
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:07:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:07:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:07:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1341
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:19 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:09:52 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1189
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:12 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:10:13 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:03 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:03 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:03 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1160
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:03 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1160
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:06 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:07 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:22 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1158
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:50 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:50 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:50 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1250
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:52 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:52 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:11:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:12:51 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:12:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:12:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1295
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:12:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:12:51 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1460
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:12 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1488
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:14:59 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1460
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:08 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:11 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:15:11 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1460
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1497
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:01 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1498
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:16:15 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+127.0.0.1 - - [10/May/2024:09:47:08 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ HTTP/1.1" 200 1600
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/Ajax.js HTTP/1.1" 200 89390
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/ajaxLogin.js HTTP/1.1" 200 1149
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Struttura.css HTTP/1.1" 200 2575
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/logo.png HTTP/1.1" 200 18156
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:10 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Login.css HTTP/1.1" 200 1000
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 6
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_carrello.png HTTP/1.1" 200 34566
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/account.png HTTP/1.1" 200 11806
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Bottone.css HTTP/1.1" 200 1368
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Benvenuto.png HTTP/1.1" 200 35380
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/0scorrimento.jpg HTTP/1.1" 200 24600
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageZoom.js HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageScorrimento.js HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/2scorrimento.jpeg HTTP/1.1" 200 29725
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/1scorrimento.jpeg HTTP/1.1" 200 36960
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/3scorrimento.jpeg HTTP/1.1" 200 57058
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/4scorrimento.jpeg HTTP/1.1" 200 62636
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategoriaGatto.png HTTP/1.1" 200 11872
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieCane.png HTTP/1.1" 200 88511
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieUccello.png HTTP/1.1" 200 33371
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieAnimali.png HTTP/1.1" 200 43306
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_cane.png HTTP/1.1" 200 882707
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_gatto.png HTTP/1.1" 200 590051
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Cuccia_per_gatto.jpg HTTP/1.1" 200 136241
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Salviette_detergenti_per_animali.jpg HTTP/1.1" 200 34970
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/altalenaBird.jpg HTTP/1.1" 200 56074
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Attrezzi_Pappagalli.jpg HTTP/1.1" 200 31705
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/casetta_legno_coniglio.jpg HTTP/1.1" 200 50811
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/GabbiaCriceti.jpg HTTP/1.1" 200 48656
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/cat.png HTTP/1.1" 200 8350
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/coniglio.png HTTP/1.1" 200 49413
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:47:21 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/pappagallo.png HTTP/1.1" 200 32727
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:52 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1558
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:53 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:48:54 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:11 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:11 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:11 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1560
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:11 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:29 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:29 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:29 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1561
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:29 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:41 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1837
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:41 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1504
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:49:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1844
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1504
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:50:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1844
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1503
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:06 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1844
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1501
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:14 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:54 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1844
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:54 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:54 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1506
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:53:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1844
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1503
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:09:54:09 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1997
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1472
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:28 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:55 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1997
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:55 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:55 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1868
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:01:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:08 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1997
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1867
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:26 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1997
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:26 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:26 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1881
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:35 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1997
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:35 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:35 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1881
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:02:35 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1867
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:21 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:26 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:26 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:03:26 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:04:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:04:55 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:04:55 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:04:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:04:55 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1889
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:11 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1889
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:06:36 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1992
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:07:34 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1996
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1885
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:28 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:35 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1996
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:35 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:35 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:13:35 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:17 +0200] "GET /GGJewelry/prova HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "GET /GGJewelry/ HTTP/1.1" 200 1996
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:21 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2019
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:56 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:57 +0200] "GET /prova.jsp HTTP/1.1" 404 739
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:59 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2019
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:14:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:15 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2016
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:16 +0200] "GET /GGJewelry/prova.jsp HTTP/1.1" 200 607
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:20 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2016
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:15:20 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2016
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:31 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:32 +0200] "GET /GGJewelry/prova.jsp HTTP/1.1" 200 607
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:32 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:32 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:32 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:32 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:34 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2016
+0:0:0:0:0:0:0:1 - - [10/May/2024:10:17:34 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+127.0.0.1 - - [10/May/2024:14:42:49 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:49 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 1886
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 34303935
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:42:51 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 24866751
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 4190143
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:17 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:18 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 23195583
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:24 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:24 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2160
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:30 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 23719871
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:34 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:34 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:42 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 26668991
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:45 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:45 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:55 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 30568383
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:44:56 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 34664383
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:45:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:37 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:37 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:37 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:37 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:37 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2255
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2255
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:46:38 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:33 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:33 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:33 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2575
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:33 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:45 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2172
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:46 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:47:50 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 3272639
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:00 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:00 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2189
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:27 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:27 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:27 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2566
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:34 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:34 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:34 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:49 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:49 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:48:49 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:04 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2161
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:12 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:18 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:49:18 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2584511
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:50:22 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2158
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:03 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:04 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:51:20 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:52:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:52:59 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 5205951
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2235
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:00 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:13 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:28 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:53:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:05 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2212
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:05 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:05 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2215
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:28 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:50 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2215
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:50 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:54:50 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2215
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2163
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:55:30 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:16 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2215
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:16 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:16 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:16 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2215
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:56:54 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:57:05 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:33 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:41 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:14:58:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2193
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2584511
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2650
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:23 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2645
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:38 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:01:39 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:00 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:00 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2664
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:51 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:02:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2220
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:03:12 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2250
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:50 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:52 +0200] "GET /homePage.jsp HTTP/1.1" 404 742
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2250
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:53 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:59 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:04:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:00 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:01 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:01 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:03 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:05:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:09 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:09 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:09 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2589
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2690
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:39 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:57 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:57 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:06:57 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:04 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2584511
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:08 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:08:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:19 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 3108799
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:41 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:10:43 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 5205951
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 5205951
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2704
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:13:22 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:30 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 7827391
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:30 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:30 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:31 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2777
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:31 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:31 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:31 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2749
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:43 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:48 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2813887
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:49 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 1535935
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:59 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:15:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2770
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:04 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:06 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:06 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:06 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:07 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:13 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:13 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:13 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2657
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:40 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:40 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:40 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:16:40 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:05 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2247
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:05 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:05 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:05 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:30 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2255
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:30 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:30 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:30 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:31 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2255
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:31 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:34 +0200] "GET /prova.jsp HTTP/1.1" 404 739
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:44 +0200] "GET /prova.jsp HTTP/1.1" 404 739
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:45 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:45 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:46 +0200] "GET /GGJewelry/prova.jsp HTTP/1.1" 200 683
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:46 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:49 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [10/May/2024:15:17:49 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+127.0.0.1 - - [10/May/2024:17:17:21 +0200] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:21 +0200] "GET /GGJewelry/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:22 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:23 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 34303935
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ HTTP/1.1" 200 1600
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Struttura.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/Ajax.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/ajaxLogin.js HTTP/1.1" 200 1149
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/logo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:33 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Login.css HTTP/1.1" 200 1000
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "POST /Esercizio_Ferrara_Schettino_Ceccarelli/Login HTTP/1.1" 200 6
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/css/Bottone.css HTTP/1.1" 200 1368
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/icona_carrello.png HTTP/1.1" 200 34566
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/account.png HTTP/1.1" 200 11806
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Benvenuto.png HTTP/1.1" 200 35380
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/0scorrimento.jpg HTTP/1.1" 200 24600
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/1scorrimento.jpeg HTTP/1.1" 200 36960
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/2scorrimento.jpeg HTTP/1.1" 200 29725
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/3scorrimento.jpeg HTTP/1.1" 200 57058
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/4scorrimento.jpeg HTTP/1.1" 200 62636
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageZoom.js HTTP/1.1" 200 159
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieCane.png HTTP/1.1" 200 88511
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieAnimali.png HTTP/1.1" 200 43306
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategorieUccello.png HTTP/1.1" 200 33371
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_cane.png HTTP/1.1" 200 882707
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Purina_crocchette_gatto.png HTTP/1.1" 200 590051
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Cuccia_per_gatto.jpg HTTP/1.1" 200 136241
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Salviette_detergenti_per_animali.jpg HTTP/1.1" 200 34970
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/resources/imageScorrimento.js HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/CategoriaGatto.png HTTP/1.1" 200 11872
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/altalenaBird.jpg HTTP/1.1" 200 56074
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/casetta_legno_coniglio.jpg HTTP/1.1" 200 50811
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/Attrezzi_Pappagalli.jpg HTTP/1.1" 200 31705
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/GabbiaCriceti.jpg HTTP/1.1" 200 48656
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/coniglio.png HTTP/1.1" 200 49413
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/cat.png HTTP/1.1" 200 8350
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:40 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/image/pappagallo.png HTTP/1.1" 200 32727
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:17:58 +0200] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:20:07 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Menu?tipo=uccelli HTTP/1.1" 200 5030
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:20:14 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo?action=dettagli&id=2 HTTP/1.1" 500 3380
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:20:22 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiCarrello.jsp HTTP/1.1" 200 2894
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:22:31 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/ProdottiView.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:22:31 +0200] "GET /Esercizio_Ferrara_Schettino_Ceccarelli/Controllo HTTP/1.1" 200 9821
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:22:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:22:54 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 24866751
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2654
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:12 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:13 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 21196735
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:16 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:16 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2252
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:20 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 31027135
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:23 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:23:23 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:52 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:56 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 5631935
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:24:59 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 1273791
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:21 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:25:39 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:10 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:11 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:11 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2652
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:11 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2653
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:22 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:43 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:43 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:26:43 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2668
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:10 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:10 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:10 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2684
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2691
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:27:56 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2266
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2684
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:28:17 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:29:56 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:29:56 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 24866751
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:12 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2265
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2684
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:18 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:19 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2684
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:30:51 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:31:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:31:17 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:31:17 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:31:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:31:17 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2683
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:32:16 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:32:16 +0200] "GET /GGJewelry/ HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:32:16 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:32:16 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:32:16 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2685
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2598
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:01 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 34303935
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2662
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2253
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2683
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:15 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:31 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:31 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 12283839
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:44 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 23719871
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:44 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 14544831
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:33:50 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 6025151
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2683
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 30633919
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:09 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:38 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:48 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:48 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:48 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:48 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:34:48 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2604
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2605
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:10 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:19 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:19 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:19 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2604
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:32 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:32 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:33 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:33 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:33 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2622
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:51 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2623
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:59 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:35:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:15 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2579
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:24 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:24 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:24 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:24 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:36:24 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2622
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:04 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2622
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2591
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:14 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:15 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:22 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:37:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2605
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:14 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:27 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:27 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:27 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:27 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2588
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:39 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:39 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2589
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:44 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:44 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:44 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2588
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:58 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:38:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2589
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:22 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:41 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:39:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:50 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:51 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:41:57 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:05 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:05 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:05 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:05 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:05 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:21 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:21 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:21 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2606
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:41 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:41 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:41 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:41 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2601
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:58 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:58 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:58 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:42:58 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:44:49 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:54 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2588
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:54 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:45:54 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:26 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:26 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2580
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:46:59 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:00 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:00 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:08 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:46 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2259
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2580
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:47:47 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2591
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:04 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2594
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:49:14 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:50:02 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:50:02 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:50:02 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:50:02 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:50:02 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2599
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:18 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:18 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2584511
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:20 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:21 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2497
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:39 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:51:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:42 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2316
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:52:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2258
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:55:54 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 19001279
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:14 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2268
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:14 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:38 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:38 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:38 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:38 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2435
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:51 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:51 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:51 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:51 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2445
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:52 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:52 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:52 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:56:52 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:12 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:12 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:12 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:12 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:21 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:21 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:21 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:21 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2498
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:23 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 6942655
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:47 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:47 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:47 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:57:47 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2496
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:58:22 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:58:22 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:58:22 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:58:22 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2524
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:43 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 2584511
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2141
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:17:59:44 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2750
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:01:53 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2748
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:04 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:15 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2750
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:18 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:18 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:18 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:38 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:38 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:38 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2746
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:56 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:56 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:02:56 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2746
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:06 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:06 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:06 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2742
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:46 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:46 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:03:46 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2498
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:34 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:35 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:35 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2173
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:35 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:35 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:35 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2498
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:43 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:04:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2194
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:16 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:16 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:16 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2498
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:26 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2282
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:26 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:05:26 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:07:32 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:07:32 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 35221439
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:08:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:08:17 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:17:00 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:17:00 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 35221439
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:17:01 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 35221439
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:13 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:13 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 6123455
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2544
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 36761535
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 28607
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:15 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 33615807
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:16 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 11235263
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:20:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2576
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2599
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:21:44 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2594
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:22:17 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2612
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:23:53 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2617
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:26 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2617
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "GET /GGJewelry/images/logo.png HTTP/1.1" 200 181796
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:24:53 +0200] "GET /GGJewelry/Proxima-Nova-Regular.woff HTTP/1.1" 200 55956
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:25:00 +0200] "GET /GGJewelry/homePage.jsp HTTP/1.1" 200 2278
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:25:00 +0200] "GET /GGJewelry/css/structure.css HTTP/1.1" 404 148
+0:0:0:0:0:0:0:1 - - [10/May/2024:18:25:00 +0200] "GET /GGJewelry/styles/structure.css HTTP/1.1" 200 2594
+0:0:0:0:0:0:0:1 - - [10/May/2024:19:46:19 +0200] "-" 400 -
+0:0:0:0:0:0:0:1 - - [10/May/2024:19:46:19 +0200] "GET /GGJewelry/videos/diamonds.mp4 HTTP/1.1" 206 35221439

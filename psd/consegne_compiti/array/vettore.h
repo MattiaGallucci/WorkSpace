@@ -1,0 +1,11 @@
+void inputArray(int a[], int n);
+void printArray(int a[], int n);
+int ricerca(int a[], int n, int elem);
+void findMin(int a[], int n);
+void swap(int *a, int *b);
+void bubbleSort(int a[], int n);
+void elimina(int a[], int *n, int pos);
+int conta_spazi(char *a);
+int *input_array_dyn(int *size, char *line);
+void insertSortArray(int a[], int *n, int val);
+void insertSort(int a[], int n);

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;formHTML/public&apos; to &apos;WebContent&apos;" description="Rename resource &apos;public&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="public" name="WebContent" stamp="1710422803014" updateReferences="true"/>
+</session>

@@ -1,0 +1,97 @@
+<%@page import="model.ProdottoBean"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Modifica Prodotto</title>
+</head>
+<body>
+    <% 
+        ProdottoBean prodotto = (ProdottoBean) request.getAttribute("prodotto");
+    %>
+    <jsp:include page="fragments/header.jsp" />
+    <div class="container_form">
+        <h3>Modifica Prodotto</h3>
+        <form action="modificaProdotto" method="post">
+            <input type="hidden" name="id" value="<%= prodotto.getId() %>">
+<!-- 
+            <div class="row">
+                <div class="col-25">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="nome" name="nome" value="<%= prodotto.getNome() %>" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="descrizione">Descrizione</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="descrizione" name="descrizione" required><%= prodotto.getDescrizione() %></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="quantita">Quantità</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="quantita" name="quantita" value="<%= prodotto.getQuantita() %>" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="costo">Costo</label>
+                </div>
+                <div class="col-75">
+                    <input type="number" id="costo" name="costo" value="<%= prodotto.getCosto() %>" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="sesso">Sesso</label>
+                </div>
+                <div class="col-75">
+                    <select id="sesso" name="sesso" required>
+                        <option value="M" <%= prodotto.getSesso().equals("M") ? "selected" : "" %>>Maschile</option>
+                        <option value="F" <%= prodotto.getSesso().equals("F") ? "selected" : "" %>>Femminile</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="immagine">Immagine URL</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="immagine" name="immagine" value="<%= prodotto.getImmagine() %>" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="categoriaNome">Categoria</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="categoriaNome" name="categoriaNome" value="<%= prodotto.getCategoriaNome() %>" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-75">
+                    <button type="submit">Salva Modifiche</button>
+                </div>
+            </div>
+             -->
+        </form>
+    </div>
+    <jsp:include page="fragments/footer.jsp" />
+</body>
+</html>

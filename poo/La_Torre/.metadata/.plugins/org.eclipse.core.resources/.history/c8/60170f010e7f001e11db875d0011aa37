@@ -1,0 +1,9 @@
+package poo23.bank;
+
+public class SavingsAccount extends BankAccount{
+	private double interestRate;
+	
+	public SavingsAccount( double rate){
+		interestRate = rate;
+	}
+}

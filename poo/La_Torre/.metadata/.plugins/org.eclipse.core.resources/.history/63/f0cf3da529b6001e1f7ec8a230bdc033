@@ -1,0 +1,52 @@
+package esercizio1;
+
+public class ClienteOro extends Cliente implements Cloneable {
+	private CartaBonus carta;
+	private String descrizione;
+
+	public ClienteOro(String nome, Indirizzo indirizzo, CartaBonus carta, String descrizione) {
+		super(nome, indirizzo);
+		this.carta = carta;
+		this.descrizione = descrizione;
+	}
+	
+	public CartaBonus getCarta() {
+		return carta;
+	}
+
+	public void setCarta(CartaBonus carta) {
+		this.carta = carta;
+	}
+
+	public String getDescrizione() {
+		return descrizione;
+	}
+
+	public void setDescrizione(String descrizione) {
+		this.descrizione = descrizione;
+	}
+
+	public String toString() {
+		return super.toString() + " [carta=" + carta + ", descrizione=" + descrizione + "]";
+	}
+
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (!super.equals(obj))
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		if (!super.equals(obj))
+			return false;
+		ClienteOro other = (ClienteOro) obj;
+		return carta.equals(other.carta) && descrizione.equals(other.descrizione);
+	}
+
+	public ClienteOro clone() {
+		ClienteOro c = (ClienteOro) super.clone();
+		c.carta = carta.clone();
+		return c;
+	}
+
+}

@@ -1,0 +1,8 @@
+package poo23.bank;
+
+public class DataSet {
+	private double sum;
+	private Measurable minimum;
+	private Measurable maximum;
+	private int count;
+}

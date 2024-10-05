@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Enter the Contest</title>
+	</head>
+	<body>
+		<form action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="post">
+			<p>Just type in your name (and click Submit) to
+			   enter the contest: <br>
+			   First name: <input type="text" name="firstname" value=""> <br>
+			   Last name: <input type="text" name="lastname" value=""> <br>
+			<input type="submit">&nbsp;&nbsp;
+			<input type="reset" value="AZZERA">
+			<button type="button">Generico</button>
+			<button type="submit">Invia</button>
+			<button type="reset">Azzera</button>
+			<button><img src="selfie_cielo.jpg" height="20px" alt="invia"></button>
+			<input type="image" style="height: 20px; vertical-align: text-top;" src="selfie_cielo.jpg" alt="invia">
+			<br>
+			<br>
+			<input type="radio" name="hotOrNot" value="hot">
+			<input type="radio" name="hotOrNot" value="not">
+			<br>
+			<input type="checkbox" name="spice" value="Salt">
+			<input type="checkbox" name="spice" value="Pepper">
+			<input type="checkbox" name="spice" value="Garlic">
+			<br>
+			<textarea rows="10" cols="40" name="feedback"></textarea>
+			<br>
+			<select name="city">
+				<option value="MI">Milano</option>
+				<option value="NA">Napoli</option>
+				<option value="RM">Roma</option>
+			</select>
+			<br>
+			<input type="number" min="-3" max="5">
+			<br>
+			<input type="range" min="-5" max="20" step="1">
+			<br>
+			<input type="color">
+			<input type="date">
+			<br>
+			<input type="file" name="attach">
+			</p>
+		</form>
+		<form action="http://site.com/bin/adduser" method="post">
+			<fieldset>
+				<legend>Nome e Cognome</legend>
+				Nome: <input type="text" name="nome"><br>
+				Cognome: <input type="text" name="cognome">
+			</fieldset>
+			<fieldset>
+				<legend>Provincia</legend>
+				<select name="provincia">
+					<optgroup label="Capoluogo">
+						<option value="BO" selected="selected">Bologna</option>
+					</optgroup>
+					<optgroup label="EmiliaCacca">
+						<option value="MO">Modena</option>
+						<option value="RE">Reggio Emilia</option>
+						<option value="PR">Parma</option>
+						<option value="PC">Piacenza</option>
+					</optgroup>
+				</select>
+			</fieldset>
+		</form>
+	</body>
+</html>

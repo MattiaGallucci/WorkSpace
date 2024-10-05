@@ -1,0 +1,13 @@
+Despina 1989    62,000    160  Voyager 2
+Galatea   1989     52,500   140  Voyager 2
+Halimede 	2002   15,686,000   60    M. Holman & J.J. Kavelaars
+Larissa 	1989    73,600  200   Voyager 2
+Laomedeia 	2002     22,613,200   38     M. Holman & J.J. Kavelaars
+Naiad 	1989   48,200 	50 	 Voyager 2
+Nereid 	1949       5,513,400 	340    G. Kuiper
+Neso 	2002 	47,279,670 	60     Holman & Gladman et al
+Proteus  1989 	117,600 	420  Voyager 2 
+Psamathe    2003   46,738,000  38  D. Jewitt, J. Kleyna & S. Sheppard 
+Sao   2002        22,337,190    38  M. Holman & J.J. Kavelaars
+Thalassa   1989       50,000  90   Voyager 2
+Triton 	1846    354,800    2705    W. Lassel  

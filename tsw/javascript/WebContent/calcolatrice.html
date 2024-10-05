@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calcolatrice</title>
+
+<script>
+function compute(f) {
+	if(confirm("Sei sicuro?")) 
+		f.result.value = eval(f.expr.value);
+	else alert("Ok, come non detto");
+}
+</script>
+
+</head>
+<body>
+<h3>Calcolatrice</h3>
+<form>
+Inserisci un'espressione:
+<input type="text" name="expr" size="35">
+<input type="button" value="Calcola" onclick="compute(this.form)"><br>
+Risultato:
+<input type="text" name="result" size="15">
+</form>
+
+</body>
+</html>

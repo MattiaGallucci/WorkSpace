@@ -1,0 +1,1 @@
+Prof driver_somma_i non funziona come dovrebbe, escono degli 0 tra le somme delle celle dei due array

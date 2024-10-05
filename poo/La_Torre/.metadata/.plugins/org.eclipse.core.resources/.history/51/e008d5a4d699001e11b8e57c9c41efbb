@@ -1,0 +1,17 @@
+package esercizio3;
+
+import java.util.ArrayList;
+
+import esercizio1.Immobile;
+
+public class App {
+	public static void main(String[] args) {
+		Immobile i1 = new Immobile(null, "IMM1", 1);
+		Immobile i2 = new Immobile(null, "IMM5", 2);
+		Immobile i3 = new Immobile(null, "IMM4", 3);
+		Immobile i4 = new Immobile(null, "IMM3", 4);
+		Immobile i5 = new Immobile(null, "IMM2", 5);
+		
+		ArrayList<Immobile> list = new ArrayList<>();
+	}
+}

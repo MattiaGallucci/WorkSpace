@@ -1,0 +1,48 @@
+
+giu 20, 2024 10:39:44.59 NEW SESSION
+giu 20, 2024 10:39:44.60 [14516:8908:0620/103944.593:ERROR:content_settings_pref.cc(404)] Invalid pattern strings: https://[*.]lens.google.com:443,
+giu 20, 2024 10:39:47.99 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+giu 27, 2024 15:48:50.81 NEW SESSION
+giu 27, 2024 15:48:50.83 [13372:3912:0627/154850.813:ERROR:content_settings_pref.cc(404)] Invalid pattern strings: https://[*.]lens.google.com:443,
+giu 27, 2024 15:48:55.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+giu 27, 2024 19:04:09.23 NEW SESSION
+giu 27, 2024 19:04:09.25 [3248:11464:0627/190409.232:ERROR:content_settings_pref.cc(404)] Invalid pattern strings: https://[*.]lens.google.com:443,
+giu 27, 2024 19:04:14.73 Created TensorFlow Lite XNNPACK delegate for CPU.
+giu 27, 2024 19:56:56.06 [3248:11464:0627/195656.067:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+
+giu 28, 2024 09:11:02.70 NEW SESSION
+giu 28, 2024 09:11:02.72 [12724:8960:0628/091102.702:ERROR:content_settings_pref.cc(404)] Invalid pattern strings: https://[*.]lens.google.com:443,
+giu 28, 2024 09:11:07.66 Created TensorFlow Lite XNNPACK delegate for CPU.
+giu 28, 2024 10:16:37.16 [12724:1804:0628/101637.161:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+giu 28, 2024 10:17:15.62 [12724:1804:0628/101715.622:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+giu 28, 2024 10:17:16.89 [12724:1804:0628/101716.891:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+giu 28, 2024 10:18:21.23 [12724:1804:0628/101821.235:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+giu 28, 2024 10:20:03.95 [12724:8960:0628/102003.956:ERROR:device_event_log_impl.cc(196)] [10:20:03.955] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+giu 28, 2024 10:20:03.96 [12724:8960:0628/102003.962:ERROR:device_event_log_impl.cc(196)] [10:20:03.962] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: Dati disponibili esauriti. (0x103)
+giu 28, 2024 10:20:04.71 [12724:8960:0628/102004.710:ERROR:device_event_log_impl.cc(196)] [10:20:04.710] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Impossibile trovare elemento. (0x490)
+giu 28, 2024 12:09:11.41 [12724:8960:0628/120911.417:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+giu 28, 2024 12:10:50.13 [12724:8960:0628/121050.135:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+giu 28, 2024 12:12:56.13 [12724:8960:0628/121256.138:ERROR:CONSOLE(1)] "Ignoring unauthorized client request from null", source: devtools://devtools/bundled/devtools-frontend/front_end/models/extensions/extensions.js (1)
+giu 28, 2024 12:19:28.35 [12724:8960:0628/121928.357:ERROR:CONSOLE(17)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=it&dm= (17)
+giu 28, 2024 12:19:28.35 [12724:8960:0628/121928.357:ERROR:CONSOLE(17)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=it&dm= (17)
+giu 28, 2024 12:19:28.35 [12724:8960:0628/121928.357:ERROR:CONSOLE(17)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=it&dm= (17)
+giu 28, 2024 12:19:28.36 [12724:8960:0628/121928.357:ERROR:CONSOLE(17)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=it&dm= (17)
+giu 28, 2024 12:51:05.61 [12724:1804:0628/125105.609:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+giu 28, 2024 13:10:49.61 [12724:1804:0628/131049.614:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+
+giu 30, 2024 11:58:59.89 NEW SESSION
+giu 30, 2024 11:58:59.92 [16540:6540:0630/115859.893:ERROR:content_settings_pref.cc(404)] Invalid pattern strings: https://[*.]lens.google.com:443,
+giu 30, 2024 11:59:03.29 [16540:15656:0630/115903.297:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for localhost failed:
+giu 30, 2024 11:59:03.29 ----- Certificate i=0 (CN=Mattia Gallucci,OU=dipartimento di informatica,O=unisa,L=Fisciano,ST=Salerno,C=IT) -----
+giu 30, 2024 11:59:03.29 ERROR: No matching issuer found
+giu 30, 2024 11:59:03.29 
+giu 30, 2024 11:59:03.30 
+giu 30, 2024 11:59:03.40 [16540:6540:0630/115903.405:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+giu 30, 2024 11:59:04.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+giu 30, 2024 11:59:07.45 [16540:6044:0630/115907.456:ERROR:cert_verify_proc_builtin.cc(1051)] CertVerifyProcBuiltin for localhost failed:
+giu 30, 2024 11:59:07.45 ----- Certificate i=0 (CN=Mattia Gallucci,OU=dipartimento di informatica,O=unisa,L=Fisciano,ST=Salerno,C=IT) -----
+giu 30, 2024 11:59:07.45 ERROR: No matching issuer found
+giu 30, 2024 11:59:07.46 
+giu 30, 2024 11:59:07.46 

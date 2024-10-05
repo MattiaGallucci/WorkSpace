@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\applicazione_grafica\src\main\java\poo23\applicazione_grafica\RectangleComponent.java"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\intersezione_cerchio\src\main\java\poo23\intersezione_cerchio\IntersectionComponent.java"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\app_grafica_auto\src\main\java\poo23\app_grafica_auto\CarComponent.java"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\esercizio2\src\main\java\poo23\esercizio2\BankAccount.java"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\cat_files\src\main\java\poo23\cat_files\App.java"/>
+			<item value="C:\Users\matti\Desktop\UNI\2 anno 2023-24\1 semestre\POO\Java1\La_Torre\eccezioni_file\src\main\java\poo23\eccezioni_file\DataSetTester.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
