@@ -1,17 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
 package esercizio1;
 
-/**
- *
- * @author matti
- */
 public class Esercizio1 {
 
     public static class Contatore {
-
         private int c;
 
         public Contatore() {
@@ -31,15 +22,13 @@ public class Esercizio1 {
     public static class Incrementatore {
 
         private Contatore c;
-        private int incrementi;
 
-        public Incrementatore(Contatore c, int incrementi) {
+        public Incrementatore(Contatore c) {
             this.c = c;
-            this.incrementi = incrementi;
-        }
+            }
 
-        public void incrementa() {
-            for (int j = 0; j < incrementi; j++) {
+        public synchronized void  incrementa(int i) { //SE LEVI SYNCHRONIZED NON VA BENE
+            for (int j = 0; j < i; j++) {
                 c.setC(c.getC() + 1);
                 System.out.println(c.getC());
             }
@@ -47,18 +36,31 @@ public class Esercizio1 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         Contatore c = new Contatore();
-        Incrementatore i = new Incrementatore(c, 40000);
+        Incrementatore i = new Incrementatore(c);
+        int volte = 40000;
 
-        i.incrementa();
-        
-        new Thread(new Runnable(){
+        Runnable r = new Runnable() {
             @Override
             public void run() {
-                Incrementatore j = new Incrementatore(c, 10000);
-                j.incrementa();
+                i.incrementa(volte/4);
             }
-        }).start();
+        };
+        
+        Thread t1 = new Thread(r);
+        Thread t2 = new Thread(r);
+        Thread t3 = new Thread(r);
+        Thread t4 = new Thread(r);
+        
+        t1.start();
+        t2.start();
+        t3.start();
+        t4.start();
+        
+        t1.join();
+        t2.join();
+        t3.join();
+        t4.join();
     }
 }
