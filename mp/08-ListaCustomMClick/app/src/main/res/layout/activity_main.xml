@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent">
+    
+ <FrameLayout 
+   android:layout_centerHorizontal="true"
+   android:background="#CCDDEE"
+   android:layout_marginTop="100dp"
+   android:layout_width="500dp"
+   android:layout_height="700dp">
+        
+   <LinearLayout
+     android:layout_width="match_parent"
+ 	 android:layout_height="wrap_content"
+     android:orientation="vertical" >  
+            
+     <TextView
+       android:layout_width="match_parent"
+ 	   android:layout_height="wrap_content"
+ 	   android:textAppearance="?android:attr/textAppearanceLarge"
+ 	   android:gravity="center"
+ 	   android:background="#FFDDEE"
+	   android:text="Custom ListView MultiClick"/>
+
+     <ListView
+         android:id="@+id/mylistview"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+     </ListView>
+       
+   </LinearLayout>
+ </FrameLayout>
+</RelativeLayout>
+

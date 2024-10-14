@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    
+    <TextView
+            android:id="@+id/counter_text_view"
+       		android:layout_width="wrap_content"
+ 	   		android:layout_height="wrap_content"
+ 	   		android:layout_alignParentLeft="true"
+ 	   		android:textSize="40dp"
+ 	   		android:gravity="center"
+	   		android:text="Counter: 0"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_1"
+        android:layout_width="match_parent"
+ 	 	android:layout_height="wrap_content"
+     	android:orientation="horizontal" >
+
+		<Button
+			android:id="@+id/button_azzera"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:onClick="onAzzeraButtonClick"
+			android:text="CLR"
+			android:textSize="40dp" />
+	    		  
+	    <Button
+    	    android:id="@+id/button1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+			android:textSize="40dp"
+       		android:layout_alignParentRight="true"
+        	android:onClick="onDestroyButtonClick"
+        	android:text="Destroy" />
+
+		<EditText
+			android:hint="Insert text"
+			android:textSize="40dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+ 	 	android:layout_height="wrap_content"
+ 	 	android:layout_below="@id/linear_layout_1"
+ 	 	android:layout_marginTop="20dp"
+     	android:orientation="vertical" >  
+            
+     	<TextView
+       		android:layout_width="match_parent"
+ 	   		android:layout_height="wrap_content"
+			android:textSize="40dp"
+ 	   		android:gravity="center"
+ 	   		android:background="#FFDDEE"
+	   		android:text="Lista chiamate onConfigurationChange"/>
+     		  
+     	<ListView
+         	android:id="@+id/lits_of_calls"
+			android:textSize="40dp"
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content" >
+     	</ListView>
+	</LinearLayout>
+</LinearLayout>

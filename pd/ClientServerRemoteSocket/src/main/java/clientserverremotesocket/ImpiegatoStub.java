@@ -11,7 +11,7 @@ public class ImpiegatoStub implements Impiegato{
     ObjectInputStream in;
     
     public ImpiegatoStub(String host) throws Throwable{
-        socket = new Socket(host, 9000);
+        socket = new Socket("localhost", 7000); //host
         out = new ObjectOutputStream(socket.getOutputStream());
         in = new ObjectInputStream(socket.getInputStream());
     }
