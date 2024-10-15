@@ -21,8 +21,14 @@ public class HelloImpl extends UnicastRemoteObject implements Hello {
 
     public static void main(String[] args) throws RemoteException {
         //questo codice permette di evitare di scrivere il file policy
-        System.setSecurityManager(new RMISecurityManager());
-
+        System.setSecurityManager(new SecurityManager() {
+            @Override
+            public void checkPermission(Permission perm) {
+            }
+            @Override
+            public void checkPermission(Permission perm, Object context) {
+            }
+        });
         try {
             logger.info("Creo l'oggetto remoto...");
             HelloImpl obj = new HelloImpl();
