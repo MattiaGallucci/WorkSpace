@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="it.unisa.di.mp.socketraw.MainActivity"
+ >
+ 
+    <LinearLayout 
+        android:id="@+id/linearLayoutAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="Host Address: " />
+    
+    <EditText
+        android:id="@+id/editTextIP"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:layout_weight="6"
+        android:text="" />
+   
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="Port: " />
+    
+    <EditText
+        android:id="@+id/editTextPort"
+		android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:layout_weight="3"
+        android:text="12345" />
+    </LinearLayout> 
+   
+    <LinearLayout 
+        android:id="@+id/linearLayoutTextToSend"
+        android:layout_below="@id/linearLayoutAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     >
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:text="To Send: "/>
+    
+    <EditText
+        android:id="@+id/editTextToSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:layout_weight="4"
+        android:lines="5"
+        android:hint="string to send"
+        android:gravity="center">
+        <requestFocus/>
+    </EditText>
+    
+    <Button 
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/activity_text_size"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:onClick="sendButtonClicked"
+        />
+     </LinearLayout>
+         
+     <Button 
+        android:id="@+id/clearButton"
+        android:layout_below="@id/linearLayoutTextToSend"
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/activity_text_size"
+        android:text="Clear Response"
+        android:onClick="clearButtonClicked"
+        />
+     
+    <TextView
+        android:id="@+id/textViewResponseTitle"
+        android:layout_below="@id/clearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFFCC"
+        android:textSize="@dimen/activity_text_size"
+        android:text="Response: " /> 
+        
+    <TextView
+        android:id="@+id/textViewResponse"
+        android:layout_below="@id/textViewResponseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars = "vertical"
+        android:textSize="@dimen/activity_text_size"
+        android:hint="Response will be shown here"
+    />
+    
+    
+</LinearLayout>

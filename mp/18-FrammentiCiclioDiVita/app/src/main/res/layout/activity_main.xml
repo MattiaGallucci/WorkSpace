@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="#556677"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:orientation="horizontal"
+            android:columnCount="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="Inserisci A"
+                android:textSize="30dp"
+                android:onClick="pulsanteInserisciApremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Inserisci B"
+                android:textSize="30dp"
+                android:onClick="pulsanteInserisciBpremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Rimuovi A"
+                android:textSize="30dp"
+                android:onClick="pulsanteRimuoviApremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Rimuovi B"
+                android:textSize="30dp"
+                android:onClick="pulsanteRimuoviBpremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Sost con B"
+                android:textSize="30dp"
+                android:onClick="pulsantedaAaBpremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Sost con A"
+                android:textSize="30dp"
+                android:onClick="pulsantedaBaApremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:text="Attach A"
+                android:textSize="30dp"
+                android:onClick="pulsanteAttachApremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:text="Detach A"
+                android:textSize="30dp"
+                android:onClick="pulsanteDetachApremuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </GridLayout>
+
+        <FrameLayout
+            android:id="@+id/contenitoreFrammenti"
+            android:background="#abcdef"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>
