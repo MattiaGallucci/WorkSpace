@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Nome"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/et_voto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Voto"
+            android:inputType="number"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fix_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inserisciRecord"
+        android:text="Inserisci"
+        android:textSize="24sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fdaefa"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:textSize="40dp" />
+
+        <ListView
+            android:id="@+id/list_all"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#ff34ef" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected  (Nome=Car%, Voto>25, ASCending)"
+            android:textSize="40dp" />
+
+        <ListView
+            android:id="@+id/list_filtered"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#dddaaa" />
+    </LinearLayout>
+
+
+</LinearLayout>

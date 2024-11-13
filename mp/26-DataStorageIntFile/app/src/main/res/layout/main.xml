@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFEEDD"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="it.unisa.di.mp.datastorageintfile.MainActivity" >
+
+    <TextView
+		android:id="@+id/textFilePath"
+   		android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+		android:textSize="25dp"
+   		android:layout_marginBottom="10dp"
+   	/>
+    
+    
+    <LinearLayout
+   		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginBottom="10dp"
+    		android:background="#CCDDEE"
+        android:orientation="horizontal">
+
+        <Button 
+   			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+			android:text="Reset" 
+			android:onClick="buttonReset" />
+        
+        <Button 
+   			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+			android:text="Save" 
+			android:onClick="buttonSave" />
+       	
+       	<Button 
+   			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+			android:text="Load" 
+			android:onClick="buttonLoad" />    
+        
+    		<EditText
+        		android:id="@+id/textFileName"
+				android:textSize="25dp"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:hint="Filename" />
+       	
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/textEditor"
+        android:background="#FFFFFF"
+		android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Edit text" />
+
+</LinearLayout>
