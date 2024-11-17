@@ -118,14 +118,31 @@ public class MusicLibrary implements MusicLibraryRemote{
         //playlist.setCanzoni(canzoni);
         
         em.merge(playlist);
+        
+        // CON QUERY
+        /*
+        TypedQuery<Playlist> query = em.createNamedQuery(Playlist.MODIFICA, Playlist.class);
+        query.setParameter("nome", nome);
+        query.setParameter("autore", autore);
+        query.setParameter("tipologia", tipologia);
+        query.setParameter("descrizione", descrizione);
+        query.setParameter("id", id);
+        
+        query.executeUpdate();
+        */
         return playlist;
     }
+    
 
     public void eliminaPlaylist(long id){
         em.remove(em.find(Playlist.class, id));
-        /*Query query = em.createNamedQuery(Playlist.ELIMINA);
+        
+        // CON QUERY
+        /*
+        Query query = em.createNamedQuery(Playlist.ELIMINA);
         query.setParameter("id", id);
-        int result = query.executeUpdate();*/
+        query.executeUpdate();
+        */
     }
     
     public void eliminaPlaylist(Playlist pl){

@@ -50,8 +50,8 @@ public class MusicLibraryClient {
         List<Playlist> listaPlaylist = ejb.trovaPlaylist();
         for(Playlist pl: listaPlaylist)
             System.out.println(pl);
-        
-        /*Scanner sc = new Scanner(System.in);
+        /*
+        Scanner sc = new Scanner(System.in);
         System.out.println("Inserisci l'id della playlist che vuoi modificare:");
         long id = sc.nextLong();
         sc.nextLine();
