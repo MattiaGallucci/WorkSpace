@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://uefa/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://uefa/">
+
+<xs:element name="aggiornaPartita" type="tns:aggiornaPartita"/>
+
+<xs:element name="aggiornaPartitaResponse" type="tns:aggiornaPartitaResponse"/>
+
+<xs:element name="creaPartita" type="tns:creaPartita"/>
+
+<xs:element name="creaPartitaResponse" type="tns:creaPartitaResponse"/>
+
+<xs:element name="eliminaPartita" type="tns:eliminaPartita"/>
+
+<xs:element name="eliminaPartitaResponse" type="tns:eliminaPartitaResponse"/>
+
+<xs:element name="partita" type="tns:partita"/>
+
+<xs:element name="trovaPartite" type="tns:trovaPartite"/>
+
+<xs:element name="trovaPartitePerNumeroAmmonizioni" type="tns:trovaPartitePerNumeroAmmonizioni"/>
+
+<xs:element name="trovaPartitePerNumeroAmmonizioniResponse" type="tns:trovaPartitePerNumeroAmmonizioniResponse"/>
+
+<xs:element name="trovaPartitePerNumeroEspulsioni" type="tns:trovaPartitePerNumeroEspulsioni"/>
+
+<xs:element name="trovaPartitePerNumeroEspulsioni0" type="tns:trovaPartitePerNumeroEspulsioni0"/>
+
+<xs:element name="trovaPartitePerNumeroEspulsioni0Response" type="tns:trovaPartitePerNumeroEspulsioni0Response"/>
+
+<xs:element name="trovaPartitePerNumeroEspulsioniResponse" type="tns:trovaPartitePerNumeroEspulsioniResponse"/>
+
+<xs:element name="trovaPartitePerNumeroGoalMaggiori2" type="tns:trovaPartitePerNumeroGoalMaggiori2"/>
+
+<xs:element name="trovaPartitePerNumeroGoalMaggiori2Response" type="tns:trovaPartitePerNumeroGoalMaggiori2Response"/>
+
+<xs:element name="trovaPartitePerTipologia" type="tns:trovaPartitePerTipologia"/>
+
+<xs:element name="trovaPartitePerTipologiaResponse" type="tns:trovaPartitePerTipologiaResponse"/>
+
+<xs:element name="trovaPartiteResponse" type="tns:trovaPartiteResponse"/>
+
+<xs:element name="trovaPerId" type="tns:trovaPerId"/>
+
+<xs:element name="trovaPerIdResponse" type="tns:trovaPerIdResponse"/>
+
+<xs:complexType name="trovaPartitePerNumeroAmmonizioni">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroAmmonizioniResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="partita">
+<xs:sequence>
+<xs:element name="giocata" type="xs:boolean"/>
+<xs:element name="goalSquadraCasa" type="xs:int"/>
+<xs:element name="goalSquadraOspite" type="xs:int"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="numeroAmmonizioni" type="xs:int"/>
+<xs:element name="numeroEspulsioni" type="xs:int"/>
+<xs:element name="squadraCasa" type="xs:string" minOccurs="0"/>
+<xs:element name="squadraOspite" type="xs:string" minOccurs="0"/>
+<xs:element name="tipologiaPartita" type="tns:tipologiaPartita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="creaPartita">
+<xs:sequence>
+<xs:element name="arg0" type="tns:partita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="creaPartitaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="aggiornaPartita">
+<xs:sequence>
+<xs:element name="arg0" type="tns:partita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiornaPartitaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaPerId">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroGoalMaggiori2">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroGoalMaggiori2Response">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaPartita">
+<xs:sequence>
+<xs:element name="arg0" type="tns:partita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaPartitaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerTipologia">
+<xs:sequence>
+<xs:element name="arg0" type="tns:tipologiaPartita" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerTipologiaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroEspulsioni0">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroEspulsioni0Response">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartite">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaPartiteResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroEspulsioni">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPartitePerNumeroEspulsioniResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:partita" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="tipologiaPartita">
+<xs:restriction base="xs:string">
+<xs:enumeration value="GIRONE1"/>
+<xs:enumeration value="GIRONE2"/>
+<xs:enumeration value="GIRONE3"/>
+<xs:enumeration value="OTTAVI"/>
+<xs:enumeration value="QUARTI"/>
+<xs:enumeration value="SEMIFINALE"/>
+<xs:enumeration value="FINALE"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

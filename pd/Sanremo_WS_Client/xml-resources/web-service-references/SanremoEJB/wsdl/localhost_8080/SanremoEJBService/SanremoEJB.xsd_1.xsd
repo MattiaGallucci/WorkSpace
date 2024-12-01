@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://sanremo/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://sanremo/">
+
+<xs:element name="aggiorna" type="tns:aggiorna"/>
+
+<xs:element name="aggiornaResponse" type="tns:aggiornaResponse"/>
+
+<xs:element name="canzone" type="tns:canzone"/>
+
+<xs:element name="crea" type="tns:crea"/>
+
+<xs:element name="creaResponse" type="tns:creaResponse"/>
+
+<xs:element name="elimina" type="tns:elimina"/>
+
+<xs:element name="eliminaResponse" type="tns:eliminaResponse"/>
+
+<xs:element name="printAll" type="tns:printAll"/>
+
+<xs:element name="printAllResponse" type="tns:printAllResponse"/>
+
+<xs:element name="printByCategory" type="tns:printByCategory"/>
+
+<xs:element name="printByCategoryResponse" type="tns:printByCategoryResponse"/>
+
+<xs:element name="printById" type="tns:printById"/>
+
+<xs:element name="printByIdResponse" type="tns:printByIdResponse"/>
+
+<xs:element name="printByVotes" type="tns:printByVotes"/>
+
+<xs:element name="printByVotesResponse" type="tns:printByVotesResponse"/>
+
+<xs:complexType name="printById">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="printByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:canzone" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="canzone">
+<xs:sequence>
+<xs:element name="cantato" type="xs:boolean"/>
+<xs:element name="categoria" type="xs:string" minOccurs="0"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="incipit" type="xs:string" minOccurs="0"/>
+<xs:element name="titolo" type="xs:string" minOccurs="0"/>
+<xs:element name="voti" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="printByVotes">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="printByVotesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:canzone" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="crea">
+<xs:sequence>
+<xs:element name="arg0" type="tns:canzone" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="creaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="elimina">
+<xs:sequence>
+<xs:element name="arg0" type="tns:canzone" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="printByCategory">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="printByCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:canzone" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="printAll">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="printAllResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:canzone" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiorna">
+<xs:sequence>
+<xs:element name="arg0" type="tns:canzone" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiornaResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>
