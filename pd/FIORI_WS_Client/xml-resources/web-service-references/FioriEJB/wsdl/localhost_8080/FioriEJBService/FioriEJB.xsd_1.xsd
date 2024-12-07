@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://fiori/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://fiori/">
+
+<xs:element name="aggiorna" type="tns:aggiorna"/>
+
+<xs:element name="aggiornaResponse" type="tns:aggiornaResponse"/>
+
+<xs:element name="crea" type="tns:crea"/>
+
+<xs:element name="creaResponse" type="tns:creaResponse"/>
+
+<xs:element name="elimina" type="tns:elimina"/>
+
+<xs:element name="eliminaResponse" type="tns:eliminaResponse"/>
+
+<xs:element name="fiore" type="tns:fiore"/>
+
+<xs:element name="trovaPerCiclo" type="tns:trovaPerCiclo"/>
+
+<xs:element name="trovaPerCicloResponse" type="tns:trovaPerCicloResponse"/>
+
+<xs:element name="trovaPerId" type="tns:trovaPerId"/>
+
+<xs:element name="trovaPerIdResponse" type="tns:trovaPerIdResponse"/>
+
+<xs:element name="trovaPerProprieta" type="tns:trovaPerProprieta"/>
+
+<xs:element name="trovaPerProprietaResponse" type="tns:trovaPerProprietaResponse"/>
+
+<xs:element name="trovaPerUso" type="tns:trovaPerUso"/>
+
+<xs:element name="trovaPerUsoResponse" type="tns:trovaPerUsoResponse"/>
+
+<xs:element name="trovaTutti" type="tns:trovaTutti"/>
+
+<xs:element name="trovaTuttiResponse" type="tns:trovaTuttiResponse"/>
+
+<xs:complexType name="trovaTutti">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="trovaTuttiResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fiore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="fiore">
+<xs:sequence>
+<xs:element name="cicloBiologico" type="xs:string" minOccurs="0"/>
+<xs:element name="colore" type="xs:string" minOccurs="0"/>
+<xs:element name="famigliaBotanica" type="xs:string" minOccurs="0"/>
+<xs:element name="giacenza" type="xs:int"/>
+<xs:element name="id" type="xs:int"/>
+<xs:element name="origine" type="xs:string" minOccurs="0"/>
+<xs:element name="proprietaCurative" type="xs:string" minOccurs="0"/>
+<xs:element name="specie" type="xs:string" minOccurs="0"/>
+<xs:element name="tipoDiPArassiti" type="xs:string" minOccurs="0"/>
+<xs:element name="uso" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerId">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fiore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerUso">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerUsoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fiore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerProprieta">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerProprietaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fiore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerCiclo">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="trovaPerCicloResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:fiore" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="crea">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fiore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="creaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="elimina">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fiore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="eliminaResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="aggiorna">
+<xs:sequence>
+<xs:element name="arg0" type="tns:fiore" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="aggiornaResponse">
+<xs:sequence/>
+</xs:complexType>
+</xs:schema>
