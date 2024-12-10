@@ -27,6 +27,7 @@ public class DatabasePopulator {
 
     @PostConstruct
     private void populateDB() {
+        // modifica da new LocalDateTime() a LocalDateTime.of()
         p1 = new Prenotazione(1, "mario rossi", 9, "VIP", LocalDateTime.of(2024, 12, 6, 17, 45));
         p2 = new Prenotazione(2, "luigi bruno", 2, "Generico", LocalDateTime.of(2024, 2, 14, 21, 30));
         p3 = new Prenotazione(3, "marco bianchi", 5, "Famiglia", LocalDateTime.of(2024, 6, 20, 20, 04));

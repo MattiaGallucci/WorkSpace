@@ -14,10 +14,18 @@ public class JMSClient {
         ConnectionFactory cf = (ConnectionFactory) ctx.lookup("jms/javaee7/ConnectionFactory");
         Destination topic = (Destination) ctx.lookup("jms/javaee7/Topic");
 
-        MessageWrapper mw = new MessageWrapper(0, 10);
+        MessageWrapper mw = new MessageWrapper(1, 10);
 
         try (JMSContext jmsc = cf.createContext()) {
             jmsc.createProducer().send(topic, mw);
         }
+        
+        //PROVA PER PRENOTAZIONE NON TROVATA
+        /*
+        MessageWrapper mw1 = new MessageWrapper(0, 10);
+
+        try (JMSContext jmsc = cf.createContext()) {
+            jmsc.createProducer().send(topic, mw1);
+        }*/
     }
 }

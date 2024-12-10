@@ -32,6 +32,7 @@ public class RistoranteEJB implements RistoranteEJBRemote {
 
     @Override
     public Prenotazione trovaPerId(int id) {
+        //aggiunta try-catch
         try {
             TypedQuery<Prenotazione> query = em.createNamedQuery(Prenotazione.TROVA_PER_ID, Prenotazione.class);
             query.setParameter("id", id);

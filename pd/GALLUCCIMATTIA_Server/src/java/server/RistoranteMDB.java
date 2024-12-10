@@ -28,7 +28,7 @@ public class RistoranteMDB implements MessageListener {
             p.setNumeroPersone(numeroPersone);
             ejb.aggiorna(p);
         } catch (JMSException e) {
-            System.out.println("Errore");
+            System.out.println("Errore"); // da e.printStackTrace() a System.out.println("Errore")
         }
     }
 }

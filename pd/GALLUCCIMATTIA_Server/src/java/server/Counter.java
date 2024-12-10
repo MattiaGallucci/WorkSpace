@@ -8,5 +8,5 @@ import javax.interceptor.InterceptorBinding;
 
 @InterceptorBinding
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.TYPE})
+@Target({ElementType.METHOD, ElementType.TYPE}) //da TargetElement a ElementType
 public @interface Counter{}

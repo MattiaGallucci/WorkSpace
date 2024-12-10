@@ -15,9 +15,9 @@ public class CounterInterceptor {
     Event<Prenotazione> evento;
     
     @AroundInvoke
-    public Object count(InvocationContext ic) throws Exception {
+    public Object count(InvocationContext ic) throws Exception { //da InitialContext a InvocationContext e aggiunta throws Exception
         String metodo = ic.getMethod().getName();
-        if (!(hm.containsKey(metodo))) {
+        if (!(hm.containsKey(metodo))) { //da hm.contains(metodo) a hm.containsKey(metodo)
             hm.put(metodo, 1);
         } else {
             hm.put(metodo, hm.get(metodo) + 1);
