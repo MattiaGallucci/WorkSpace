@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface GestioneCommunityService {
     CommunityBean create(String nome, String descrizione, UtenteBean utente) throws SQLException;
-    boolean remove(String nome) throws SQLException;
+    boolean remove(CommunityBean community, UtenteBean utente) throws SQLException;
     CommunityBean visualizza(String nome) throws SQLException;
     CommunityBean iscrizione(UtenteBean utente, String nome) throws SQLException;
     List<CommunityBean> cerca(String substring) throws SQLException;

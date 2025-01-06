@@ -18,7 +18,7 @@ public class PostDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "INSERT INTO " + TABLE_NAME + " (titolo, corpo, immagine, segnalazioni, likes, dataCreazione, numeroCommenti, utenteEmail, communityNome) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String query = "INSERT INTO " + TABLE_NAME + " (titolo, corpo, immagine, likes, dataCreazione, numeroCommenti, utenteEmail, communityNome) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
@@ -27,12 +27,11 @@ public class PostDAO {
             statement.setString(1, bean.getTitolo());
             statement.setString(2, bean.getCorpo());
             statement.setString(3, bean.getImmagine());
-            statement.setInt(4, bean.getSegnalazioni());
-            statement.setInt(5, bean.getLikes());
-            statement.setDate(6, bean.getDataCreazione()); // Assume that dataCreazione is set in the bean
-            statement.setInt(7, bean.getNumeroCommenti());
-            statement.setString(8, bean.getUtenteEmail());
-            statement.setString(9, bean.getCommunityNome());
+            statement.setInt(4, bean.getLikes());
+            statement.setDate(5, bean.getDataCreazione()); // Assume that dataCreazione is set in the bean
+            statement.setInt(6, bean.getNumeroCommenti());
+            statement.setString(7, bean.getUtenteEmail());
+            statement.setString(8, bean.getCommunityNome());
 
             result = statement.executeUpdate();
             con.commit();
@@ -68,7 +67,7 @@ public class PostDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "UPDATE " + TABLE_NAME + " SET titolo = ?, corpo = ?, immagine = ?, segnalazioni = ?, likes = ?, dataCreazione = ?, numeroCommenti = ?, utenteEmail = ?, communityNome = ? WHERE id = ?";
+        String query = "UPDATE " + TABLE_NAME + " SET titolo = ?, corpo = ?, immagine = ?, likes = ?, dataCreazione = ?, numeroCommenti = ?, utenteEmail = ?, communityNome = ? WHERE id = ?";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
@@ -78,13 +77,12 @@ public class PostDAO {
             statement.setString(1, bean.getTitolo());
             statement.setString(2, bean.getCorpo());
             statement.setString(3, bean.getImmagine());
-            statement.setInt(4, bean.getSegnalazioni());
-            statement.setInt(5, bean.getLikes());
-            statement.setDate(6, bean.getDataCreazione());
-            statement.setInt(7, bean.getNumeroCommenti());
-            statement.setString(8, bean.getUtenteEmail());
-            statement.setString(9, bean.getCommunityNome());
-            statement.setInt(10, bean.getId());
+            statement.setInt(4, bean.getLikes());
+            statement.setDate(5, bean.getDataCreazione());
+            statement.setInt(6, bean.getNumeroCommenti());
+            statement.setString(7, bean.getUtenteEmail());
+            statement.setString(8, bean.getCommunityNome());
+            statement.setInt(9, bean.getId());
 
             // Execute the update and capture the result
             result = statement.executeUpdate();
@@ -122,7 +120,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes")); // Retrieve likes after segnalazioni
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -155,7 +152,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes")); // Include likes after segnalazioni
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -190,7 +186,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes")); // Add likes after segnalazioni
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -225,7 +220,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes"));
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -263,7 +257,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes")); // Include likes after segnalazioni
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -303,7 +296,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes"));
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));
@@ -341,7 +333,6 @@ public class PostDAO {
                 post.setTitolo(result.getString("titolo"));
                 post.setCorpo(result.getString("corpo"));
                 post.setImmagine(result.getString("immagine"));
-                post.setSegnalazioni(result.getInt("segnalazioni"));
                 post.setLikes(result.getInt("likes"));
                 post.setDataCreazione(result.getDate("dataCreazione"));
                 post.setNumeroCommenti(result.getInt("numeroCommenti"));

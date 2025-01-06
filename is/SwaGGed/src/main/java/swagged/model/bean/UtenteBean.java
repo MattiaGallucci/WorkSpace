@@ -10,7 +10,6 @@ public class UtenteBean implements Serializable, Bean {
     private String username;
     private String password;
     private String immagine;
-    private int segnalazioni;
     private boolean bandito;
     private boolean admin;
 
@@ -25,7 +24,6 @@ public class UtenteBean implements Serializable, Bean {
         this.username = "";
         this.password = "";
         this.immagine = "";
-        this.segnalazioni = 0;
         this.bandito = false;
         this.admin = false;
         postCreati = new ArrayList<PostBean>();
@@ -65,14 +63,6 @@ public class UtenteBean implements Serializable, Bean {
 
     public void setImmagine(String immagine) {
         this.immagine = immagine;
-    }
-
-    public int getSegnalazioni() {
-        return segnalazioni;
-    }
-
-    public void setSegnalazioni(int segnalazioni) {
-        this.segnalazioni = segnalazioni;
     }
 
     public boolean isBandito() {

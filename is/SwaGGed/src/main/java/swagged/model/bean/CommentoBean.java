@@ -7,14 +7,12 @@ public class CommentoBean implements Serializable, Bean {
     private static final long serialVersionUID = 1L;
     private int id;
     private String corpo;
-    private int segnalazioni;
     private String utenteEmail;
     private int postId;
 
     public CommentoBean() {
         this.id = -1;
         this.corpo = "";
-        this.segnalazioni = 0;
         this.utenteEmail = "";
         this.postId = -1;
     }
@@ -33,18 +31,6 @@ public class CommentoBean implements Serializable, Bean {
 
     public void setCorpo(String corpo) {
         this.corpo = corpo;
-    }
-
-    public int getSegnalazioni() {
-        return segnalazioni;
-    }
-
-    public void setSegnalazioni(int segnalazioni) {
-        this.segnalazioni = segnalazioni;
-    }
-
-    public void aggiungiSegnalazione() {
-        this.segnalazioni++;
     }
 
     public String getUtenteEmail() {

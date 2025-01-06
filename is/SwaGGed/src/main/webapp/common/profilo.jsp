@@ -5,12 +5,16 @@
 <%@ page import="swagged.model.bean.ApprezzaPostBean" %>
 <%@ page import="swagged.model.dao.PostDAO" %>
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="swagged.model.dao.ApprezzaPostDAO" %>
+<%@ page import="swagged.model.dao.CommentoDAO" %>
 <%
     UtenteBean utente = (UtenteBean) session.getAttribute("utente");
-    List<PostBean> postCreati = (List<PostBean>) utente.get("postCreati");
-    List<ApprezzaPostBean> apprezzaPostBeans = (List<ApprezzaPostBean>) utente.get("postApprezzati");
-    List<CommentoBean> commentiCreati = (List<CommentoBean>) utente.get("commentiCreati");
     PostDAO postDAO = new PostDAO();
+    List<PostBean> postCreati = postDAO.getByEmail(utente.getEmail());
+    ApprezzaPostDAO apprezzaPostDAO = new ApprezzaPostDAO();
+    List<ApprezzaPostBean> apprezzaPostBeans = apprezzaPostDAO.getByEmail(utente.getEmail());
+    CommentoDAO commentoDAO = new CommentoDAO();
+    List<CommentoBean> commentiCreati = commentoDAO.getByUtenteEmail(utente.getEmail());
     List<PostBean> postApprezzati = new ArrayList<>();
     for (ApprezzaPostBean post : apprezzaPostBeans) {
         postApprezzati.add(postDAO.getById(post.getPostId()));
@@ -75,9 +79,13 @@
                                             </li>
                                         </ul>
                                     </div>
+                                    <form class="" data-bs-toggle="modal"
+                                          data-bs-target="#immagine-modal"
+                                          action="javascript:void();">
+                                        <a href="#immagine-modal"><i class="ri-pencil-line"></i></a>
+                                    </form>
                                 </div>
                             </div>
-
                             <div class="modal fade" id="post-modal-community" tabindex="-1"
                                  aria-labelledby="post-modalLabel"
                                  aria-hidden="true">
@@ -114,7 +122,33 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="modal fade" id="immagine-modal" tabindex="-1" aria-labelledby="post-modalLabel"
+                                 aria-hidden="true">
+                                <div class="modal-dialog   modal-fullscreen-sm-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="immagine-modalLabel">Modifica immagine di
+                                                profilo</h5>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i
+                                                    class="ri-close-fill"></i></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="../utente" method="post" enctype="multipart/form-data">
+                                                <input type="hidden" name="mode" value="modificaImmagine">
+                                                <div class="form-group">
+                                                    <label for="immagine" class="form-label custom-file-input">Inserisci
+                                                        immagine</label>
+                                                    <input class="form-control" type="file" id="immagine"
+                                                           name="immagine">
+                                                </div>
+                                                <hr>
+                                                <button type="submit" class="btn btn-primary d-block w-100 mt-3">Carica
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -177,9 +211,27 @@
                                                             if (utente != null && (post.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())) {
                                                         %>
                                                         <div class="card-post-toolbar">
-                                                            <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
+                                                            <button type="button" class="btn btn-link mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                                 <i class="ri-delete-bin-7-line h4"></i>
-                                                            </a>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                            <div class="modal-dialog" role="document">
+                                                                <div class="modal-content">
+                                                                    <div class="modal-header">
+                                                                        <h5 class="modal-title" id="exampleModalLabel">Confermare eliminazione?</h5>
+                                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                                                                        <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
+                                                                            <button type="button" class="btn btn-primary">Conferma</button>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <%
                                                             }
@@ -199,7 +251,7 @@
                                                 </div>
                                                 <%
                                                     }
-                                                    if (post.getImmagine() != null) {
+                                                    if (post.getImmagine() != null && post.getImmagine().length() > 0) {
                                                 %>
                                                 <div class="user-post">
                                                     <img src="<%=request.getContextPath() + "/assets/images/post/" + post.getImmagine()%>"
@@ -301,10 +353,29 @@
                                                             <%
                                                                 if (utente != null && (post.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())) {
                                                             %>
+
                                                             <div class="card-post-toolbar">
-                                                                <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
+                                                                <button type="button" class="btn btn-link mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal-apprezzati">
                                                                     <i class="ri-delete-bin-7-line h4"></i>
-                                                                </a>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal fade" id="exampleModal-apprezzati" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                                <div class="modal-dialog" role="document">
+                                                                    <div class="modal-content">
+                                                                        <div class="modal-header">
+                                                                            <h5 class="modal-title" id="exampleModalLabel-apprezzati">Confermare eliminazione?</h5>
+                                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+                                                                            </button>
+                                                                        </div>
+                                                                        <div class="modal-footer">
+                                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                                                                            <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
+                                                                                <button type="button" class="btn btn-primary">Conferma</button>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                             <%
                                                                 }
@@ -324,7 +395,7 @@
                                                     </div>
                                                     <%
                                                         }
-                                                        if (post.getImmagine() == null) {
+                                                        if (post.getImmagine() != null) {
                                                     %>
                                                     <div class="user-post">
                                                         <img src="<%=request.getContextPath() + "/assets/images/post/" + post.getImmagine()%>"
@@ -406,7 +477,8 @@
                                                     <div class="d-flex">
                                                         <div class="user-img">
                                                             <img src="<%=request.getContextPath() + "/assets/images/pfp/" + utente.getImmagine()%>"
-                                                                 alt="userimg" class="avatar-35 rounded-circle img-fluid">
+                                                                 alt="userimg"
+                                                                 class="avatar-35 rounded-circle img-fluid">
                                                         </div>
                                                         <div class="w-100">
                                                             <div class="d-flex justify-content-between">
@@ -423,9 +495,27 @@
                                                                     if (utente != null && (commento.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())) {
                                                                 %>
                                                                 <div class="card-post-toolbar">
-                                                                    <a href="<%=request.getContextPath()%>/commento?mode=remove&id=<%=commento.getId()%>&postId=<%=commento.getPostId()%>">
+                                                                    <button type="button" class="btn btn-link mb-1" data-bs-toggle="modal" data-bs-target="#exampleModal-commenti">
                                                                         <i class="ri-delete-bin-7-line h4"></i>
-                                                                    </a>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal fade" id="exampleModal-commenti" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                                                                    <div class="modal-dialog" role="document">
+                                                                        <div class="modal-content">
+                                                                            <div class="modal-header">
+                                                                                <h5 class="modal-title" id="exampleModalLabel-commenti">Confermare eliminazione?</h5>
+                                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
+                                                                                </button>
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                                                                                <a href="<%=request.getContextPath()%>/commento?mode=remove&id=<%=commento.getId()%>&postId=<%=commento.getPostId()%>">
+                                                                                    <button type="button" class="btn btn-primary">Conferma</button>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                                 <%
                                                                     }

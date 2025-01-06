@@ -37,6 +37,11 @@ public class UtenteServlet extends HttpServlet {
                     response.sendRedirect(request.getContextPath() + "/common/profilo.jsp");
                 }else
                     response.sendRedirect(request.getContextPath() + "/utente.jsp");
+            } else if (mode.equals("ban")) {
+                String emailToBan = request.getParameter("utenteEmail"); // The email of the user to be banned
+                UtenteBean bannato = utenteDAO.getByEmail(emailToBan);
+                gestioneUtenti.ban(emailToBan);
+                response.sendRedirect(request.getContextPath() + "/utente?mode=visualizza&username=" + bannato.getUsername());
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -49,20 +54,16 @@ public class UtenteServlet extends HttpServlet {
         UtenteDAO utenteDAO = new UtenteDAO();
 
         try {
-            if (mode.equals("ban")) {
-                String emailToBan = request.getParameter("utenteEmail"); // The email of the user to be banned
-                gestioneUtenti.ban(emailToBan);
-                response.sendRedirect(request.getContextPath() + "/homepage.jsp");
-            } else if (mode.equals("cerca")) {
+             if (mode.equals("cerca")) {
                 String substring = request.getParameter("substring");
                 gestioneUtenti.cerca(substring);
             } else if (mode.equals("modificaImmagine")) {
                 UtenteBean utente = (UtenteBean) request.getSession().getAttribute("utente");
-                String email = utente.getEmail();
                 Part filePart = request.getPart("immagine");
-                gestioneUtenti.modificaImmagine(email, filePart, this);
-                request.setAttribute("profilo", utente);
-                response.sendRedirect(request.getContextPath() + "/visualizza.jsp");
+                gestioneUtenti.modificaImmagine(utente, filePart, this);
+                request.setAttribute("utente", utente);
+                System.out.println("Servelt: "+utente);
+                response.sendRedirect(request.getContextPath() + "/homepage.jsp");
             }else if(mode.equals("checkEmail")) {
                 response.setContentType("text/plain");
                 String email = request.getParameter("email");

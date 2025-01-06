@@ -29,12 +29,10 @@ public class GestioneCommunityServiceImpl implements GestioneCommunityService {
         CommunityBean newCommunity = new CommunityBean();
         newCommunity.setNome(nome);
         newCommunity.setDescrizione(descrizione);
-        newCommunity.setSegnalazioni(0);
         newCommunity.setIscritti(0);
         newCommunity.setUtenteEmail(utente.getEmail());
 
         utente.add("communityCreate", newCommunity);
-        System.out.println(newCommunity);
 
         if(communityDAO.save(newCommunity))
             return newCommunity;
@@ -43,15 +41,22 @@ public class GestioneCommunityServiceImpl implements GestioneCommunityService {
     }
 
     @Override
-    public boolean remove(String nome) throws SQLException {
-        if(nome == null || nome.isEmpty())
+    public boolean remove(CommunityBean community, UtenteBean utente) throws SQLException {
+        if(community == null || utente == null)
             return false;
 
-        CommunityBean community = communityDAO.getByNome(nome);
-        UtenteBean utente = utenteDAO.getByEmail(community.getUtenteEmail());
+        System.out.println("Prima create: " + utente.get("communityCreate"));
         utente.remove("communityCreate", community);
+        System.out.println("Dopo create: " + utente.get("communityCreate"));
 
-        return communityDAO.delete(nome);
+        IscrivitiCommunityDAO iscrivitiCommunityDAO = new IscrivitiCommunityDAO();
+        IscrivitiCommunityBean iscrivitiCommunityBean = iscrivitiCommunityDAO.getByKey(utente.getEmail(), community.getNome());
+
+        System.out.println("Prima iscritto: " + utente.get("communityIscritto"));
+        utente.remove("communityIscritto", iscrivitiCommunityBean);
+        System.out.println("Dopo iscritto: " + utente.get("communityIscritto"));
+
+        return communityDAO.delete(community.getNome());
     }
 
     @Override

@@ -28,7 +28,7 @@
             <div class="iq-navbar-logo d-flex justify-content-between">
                 <a href="<%=request.getContextPath()%>/homepage.jsp">
                     <img src="../assets/images/logo.png" class="img-fluid" alt="">
-                    <span>SocialV</span>
+                    <span>SwaGGed</span>
                 </a>
                 <%
                     if(utente!=null){

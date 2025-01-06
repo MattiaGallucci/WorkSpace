@@ -22,7 +22,6 @@ public class GestioneCommentiServiceImpl implements GestioneCommentiService{
 
         CommentoBean newCommento = new CommentoBean();
         newCommento.setCorpo(corpo);
-        newCommento.setSegnalazioni(0);
         newCommento.setUtenteEmail(utenteEmail);
         newCommento.setPostId(postId);
 

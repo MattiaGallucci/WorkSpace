@@ -18,16 +18,15 @@ public class CommentoDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "INSERT INTO " + TABLE_NAME + " (corpo, segnalazioni, utenteEmail, postId) VALUES (?,?,?,?)";
+        String query = "INSERT INTO " + TABLE_NAME + " (corpo, utenteEmail, postId) VALUES (?,?,?)";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
             statement = con.prepareStatement(query);
 
             statement.setString(1, bean.getCorpo());
-            statement.setInt(2, bean.getSegnalazioni());
-            statement.setString(3, bean.getUtenteEmail());
-            statement.setInt(4, bean.getPostId());
+            statement.setString(2, bean.getUtenteEmail());
+            statement.setInt(3, bean.getPostId());
 
             result = statement.executeUpdate();
             con.commit();
@@ -64,17 +63,16 @@ public class CommentoDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "UPDATE " + TABLE_NAME + " SET corpo = ?, segnalazioni = ?, utenteEmail = ?, postId = ? WHERE id = ?";
+        String query = "UPDATE " + TABLE_NAME + " SET corpo = ?, utenteEmail = ?, postId = ? WHERE id = ?";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
             statement = con.prepareStatement(query);
 
             statement.setString(1, bean.getCorpo());
-            statement.setInt(2, bean.getSegnalazioni());
-            statement.setString(3, bean.getUtenteEmail());
-            statement.setInt(4, bean.getPostId());
-            statement.setInt(5, bean.getId());
+            statement.setString(2, bean.getUtenteEmail());
+            statement.setInt(3, bean.getPostId());
+            statement.setInt(4, bean.getId());
 
             result = statement.executeUpdate();
             con.commit();
@@ -102,7 +100,6 @@ public class CommentoDAO {
                 CommentoBean commento = new CommentoBean();
                 commento.setId(result.getInt("id"));
                 commento.setCorpo(result.getString("corpo"));
-                commento.setSegnalazioni(result.getInt("segnalazioni"));
                 commento.setUtenteEmail(result.getString("utenteEmail"));
                 commento.setPostId(result.getInt("postId"));
 
@@ -132,7 +129,6 @@ public class CommentoDAO {
             while (result.next()) {
                 commento.setId(result.getInt("id"));
                 commento.setCorpo(result.getString("corpo"));
-                commento.setSegnalazioni(result.getInt("segnalazioni"));
                 commento.setUtenteEmail(result.getString("utenteEmail"));
                 commento.setPostId(result.getInt("postId"));
             }
@@ -161,7 +157,6 @@ public class CommentoDAO {
                 CommentoBean commento = new CommentoBean();
                 commento.setId(result.getInt("id"));
                 commento.setCorpo(result.getString("corpo"));
-                commento.setSegnalazioni(result.getInt("segnalazioni"));
                 commento.setUtenteEmail(result.getString("utenteEmail"));
                 commento.setPostId(result.getInt("postId"));
 
@@ -192,7 +187,6 @@ public class CommentoDAO {
                 CommentoBean commento = new CommentoBean();
                 commento.setId(result.getInt("id"));
                 commento.setCorpo(result.getString("corpo"));
-                commento.setSegnalazioni(result.getInt("segnalazioni"));
                 commento.setUtenteEmail(result.getString("utenteEmail"));
                 commento.setPostId(result.getInt("postId"));
 

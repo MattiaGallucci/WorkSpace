@@ -27,6 +27,12 @@ public class CommunityServlet extends HttpServlet {
                 CommunityBean community = gestioneCommunity.visualizza(nome);
                 request.getSession().setAttribute("community", community);
                 response.sendRedirect(request.getContextPath() + "/community.jsp");
+            } else if (mode.equals("remove")) {
+                CommunityBean community = (CommunityBean) request.getSession().getAttribute("community");
+                UtenteBean utente = (UtenteBean) request.getSession().getAttribute("utente");
+                gestioneCommunity.remove(community, utente);
+                request.getSession().setAttribute("utente", utente);
+                response.sendRedirect(request.getContextPath() + "/homepage.jsp");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -46,10 +52,6 @@ public class CommunityServlet extends HttpServlet {
                 CommunityBean community = gestioneCommunity.create(nome, descrizione, utente);
                 request.getSession().setAttribute("utente", utente);
                 response.sendRedirect(request.getContextPath() + "/community?mode=visualizza&nome=" + community.getNome());
-            } else if (mode.equals("remove")) {
-                String nome = request.getParameter("nome");
-                gestioneCommunity.remove(nome);
-                response.sendRedirect(request.getContextPath() + "/homepage.jsp");
             } else if (mode.equals("iscrizione")) {
                 UtenteBean utente = (UtenteBean) request.getSession().getAttribute("utente");
                 String nome = request.getParameter("nome");

@@ -8,7 +8,6 @@ CREATE TABLE utente (
     username        varchar(20)     NOT NULL,
     password        varchar(64)     NOT NULL,
     immagine        varchar(512)    NOT NULL DEFAULT "noPfp.jpg",
-    segnalazioni    int             NOT NULL DEFAULT '0',
     bandito         tinyint(1)      NOT NULL DEFAULT '0',
     admin           tinyint(1)      NOT NULL DEFAULT '0',
     PRIMARY KEY (email),
@@ -19,7 +18,6 @@ DROP TABLE IF EXISTS community;
 CREATE TABLE community (
     nome            varchar(20)     NOT NULL,
     descrizione     varchar(512)    NOT NULL DEFAULT "",
-    segnalazioni    int             NOT NULL DEFAULT '0',
     iscritti		int				NOT NULL DEFAULT '0',
     utenteEmail     varchar(30)     NOT NULL,
     PRIMARY KEY (nome),
@@ -32,7 +30,6 @@ CREATE TABLE post (
     titolo          varchar(50)     NOT NULL,
     corpo           varchar(512)    DEFAULT "",
     immagine        varchar(512)    DEFAULT "",
-    segnalazioni    int             NOT NULL DEFAULT '0',
     likes           int             NOT NULL DEFAULT '0',
     dataCreazione   datetime        NOT NULL DEFAULT CURRENT_TIMESTAMP,
     numeroCommenti	int				NOT NULL DEFAULT '0',
@@ -47,7 +44,6 @@ DROP TABLE IF EXISTS commento;
 CREATE TABLE commento (
     id              int             NOT NULL AUTO_INCREMENT,
     corpo           varchar(512)    NOT NULL DEFAULT "",
-    segnalazioni    int             NOT NULL DEFAULT '0',
     utenteEmail     varchar(30)     NOT NULL,
     postId          int             NOT NULL,
     PRIMARY KEY (id),
@@ -137,35 +133,82 @@ CREATE TABLE apprezzaCommento (
     FOREIGN KEY (commentoId) REFERENCES commento(id) ON UPDATE CASCADE ON DELETE CASCADE
 );
 */
-INSERT INTO utente(email, username, password, immagine, segnalazioni, bandito, admin) VALUES
-("Email@email.email", "Username", "UGFzc3dvcmQ=", "noPfp.jpg", 0, 0, 0); -- Password: Password
+/*
+INSERT INTO utente(email, username, password, immagine, bandito, admin) VALUES
+("Email@email.email", "Username", "UGFzc3dvcmQ=", "noPfp.jpg", 0, 0); -- Password: Password
 
 -- Insert a user (if not already done, use your existing user insert statement if desired)
-INSERT INTO utente (email, username, password, immagine, segnalazioni, bandito, admin) 
-VALUES ("testuser@email.com", "TestUser", "aGVsbG9Ad29ybGQ=", "noPfp.jpg", 0, 0, 0); -- Password: hello@world
+INSERT INTO utente (email, username, password, immagine, bandito, admin) 
+VALUES ("testuser@email.com", "TestUser", "aGVsbG9Ad29ybGQ=", "noPfp.jpg", 0, 0); -- Password: hello@world
 
 -- Insert another user
-INSERT INTO utente (email, username, password, immagine, segnalazioni, bandito, admin) 
-VALUES ("admin@email.com", "AdminUser", "YWRtaW5wYXNz", "noPfp.jpg", 0, 0, 1); -- Password: adminpass
+INSERT INTO utente (email, username, password, immagine, bandito, admin) 
+VALUES ("admin@email.com", "AdminUser", "YWRtaW5wYXNz", "noPfp.jpg", 0, 1); -- Password: adminpass
 
 -- Insert a community
-INSERT INTO community (nome, descrizione, segnalazioni, utenteEmail) 
-VALUES ("Test Community", "This is a test community description", 0, "testuser@email.com");
+INSERT INTO community (nome, descrizione, utenteEmail) 
+VALUES ("Test Community", "This is a test community description", "testuser@email.com");
 
 INSERT INTO iscrivitiCommunity(utenteEmail, communityNome) VALUES
 ("Email@email.email", "Test Community");
 
 -- Now, insert a post into the `post` table. Use the last inserted community ID.
-INSERT INTO post (titolo, corpo, immagine, segnalazioni, likes, utenteEmail, communityNome) VALUES 
-("Test Post Title 1", "This is the body of the first test post.", "", 0, 10, "testuser@email.com", "Test Community"),
-("Test Post Title 2", "This is the body of the second test post.", "", 0, 5, "testuser@email.com", "Test Community"),
-("POST MIO", "MIO POST", "", 0, 5, "Email@email.email", "Test Community"),
-("Test Post Title 3", "This is the body of the third test post.", "", 0, 3, "admin@email.com", "Test Community");
+INSERT INTO post (titolo, corpo, immagine, likes, utenteEmail, communityNome) VALUES 
+("Test Post Title 1", "This is the body of the first test post.", "", 10, "testuser@email.com", "Test Community"),
+("Test Post Title 2", "This is the body of the second test post.", "", 5, "testuser@email.com", "Test Community"),
+("POST MIO", "MIO POST", "", 5, "Email@email.email", "Test Community"),
+("Test Post Title 3", "This is the body of the third test post.", "", 3, "admin@email.com", "Test Community");
 
-INSERT INTO commento (corpo, segnalazioni, utenteEmail, postId) VALUES
-("Questo è un commento interessante! Grazie per averlo condiviso.", 0, "testuser@email.com", 1),
-("Non sono d'accordo con quanto scritto, ma rispetto la tua opinione.", 0, "admin@email.com", 1),
-("Mi piacerebbe sapere di più su questo argomento.", 0, "Email@email.email", 1),
-("Ottimo lavoro! Continua così!", 0, "testuser@email.com", 1),
-("Questo post mi ha fatto riflettere. Hai qualche risorsa da consigliare?", 0, "admin@email.com", 1),
-("Mi puoi eliminare?", 0, "Email@email.email", 1);
+INSERT INTO commento (corpo, utenteEmail, postId) VALUES
+("Questo è un commento interessante! Grazie per averlo condiviso.", "testuser@email.com", 1),
+("Non sono d'accordo con quanto scritto, ma rispetto la tua opinione.", "admin@email.com", 1),
+("Mi piacerebbe sapere di più su questo argomento.", "Email@email.email", 1),
+("Ottimo lavoro! Continua così!", "testuser@email.com", 1),
+("Questo post mi ha fatto riflettere. Hai qualche risorsa da consigliare?", "admin@email.com", 1),
+("Mi puoi eliminare?", "Email@email.email", 1);
+*/
+
+INSERT INTO utente (email, username, password, admin) VALUES -- Password: pass
+("email1@email.com", "user1", "cGFzcw==", 0), 
+("email2@email.com", "user2", "cGFzcw==", 0),
+("email3@email.com", "user3", "cGFzcw==", 0),
+("email4@email.com", "admin", "cGFzcw==", 1);
+
+INSERT INTO community (nome, descrizione, iscritti, utenteEmail) VALUES
+("Community1", "Descrizione", 3,"email1@email.com"),
+("Community2", "Descrizione", 1,"email2@email.com"),
+("Community3", "Descrizione", 1,"email3@email.com"),
+("Community4", "Descrizione", 1,"email1@email.com");
+
+INSERT INTO post (titolo, corpo, likes, numeroCommenti, utenteEmail, communityNome) VALUES
+("Post1", "corpo", 4, 3, "email1@email.com", "Community1"),
+("Post2", "corpo", 0, 1, "email2@email.com", "Community2"),
+("Post3", "corpo", 0, 1, "email4@email.com", "Community1"),
+("Post4", "corpo", 0, 1, "email1@email.com", "Community1"),
+("Post5", "corpo", 0, 0, "email2@email.com", "Community4"),
+("Post6", "corpo", 0, 0, "email2@email.com", "Community3"),
+("Post7", "corpo", 0, 0, "email3@email.com", "Community3"),
+("Post8", "corpo", 0, 0, "email3@email.com", "Community2"),
+("Post9", "corpo", 0, 0, "email1@email.com", "Community2");
+
+INSERT INTO commento (corpo, utenteEmail, postId) VALUES
+("Commento1", "email1@email.com", 1),
+("Commento1", "email2@email.com", 1),
+("Commento1", "email3@email.com", 1),
+("Commento1", "email3@email.com", 2),
+("Commento1", "email2@email.com", 4),
+("Commento1", "email1@email.com", 3);
+
+INSERT INTO iscrivitiCommunity (utenteEmail, communityNome) VALUES
+("email1@email.com", "Community1"),
+("email2@email.com", "Community1"),
+("email3@email.com", "Community1"),
+("email1@email.com", "Community2"),
+("email2@email.com", "Community3"),
+("email3@email.com", "Community4");
+
+INSERT INTO apprezzaPost (utenteEmail, postId) VALUES
+("email1@email.com", "1"),
+("email2@email.com", "1"),
+("email3@email.com", "1"),
+("email4@email.com", "1");

@@ -12,7 +12,6 @@ public class PostBean implements Serializable, Bean {
     private String titolo;
     private String corpo;
     private String immagine;
-    private int segnalazioni;
     private int likes;
     private Date dataCreazione;
     private int numeroCommenti;
@@ -26,7 +25,6 @@ public class PostBean implements Serializable, Bean {
         this.titolo = "";
         this.corpo = "";
         this.immagine = "";
-        this.segnalazioni = 0;
         this.likes = 0;
         this.dataCreazione = new Date(-1);
         this.numeroCommenti = 0;
@@ -65,18 +63,6 @@ public class PostBean implements Serializable, Bean {
 
     public void setImmagine(String immagine) {
         this.immagine = immagine;
-    }
-
-    public int getSegnalazioni() {
-        return segnalazioni;
-    }
-
-    public void setSegnalazioni(int segnalazioni) {
-        this.segnalazioni = segnalazioni;
-    }
-
-    public void aggiungiSegnalazione() {
-        this.segnalazioni++;
     }
 
     public int getLikes() {

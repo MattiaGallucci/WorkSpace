@@ -63,7 +63,6 @@ public class GestionePostServiceImpl implements GestionePostService {
         }
 
         newPost.setImmagine(relativeFileName); // Imposta l'immagine solo se presente
-        newPost.setSegnalazioni(0);
         newPost.setLikes(0);
         newPost.setDataCreazione(new Date(System.currentTimeMillis()));
         newPost.setUtenteEmail(utente.getEmail());

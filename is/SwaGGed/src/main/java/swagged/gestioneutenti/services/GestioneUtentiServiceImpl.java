@@ -19,7 +19,7 @@ import java.util.UUID;
 
 public class GestioneUtentiServiceImpl implements GestioneUtentiService{
     private UtenteDAO utenteDAO = new UtenteDAO();
-    private static final String UPLOAD_DIR = "images/pfp";
+    private static final String UPLOAD_DIR = "assets/images/pfp";
 
     @Override
     public boolean ban(String email) throws SQLException {
@@ -46,11 +46,9 @@ public class GestioneUtentiServiceImpl implements GestioneUtentiService{
     }
 
     @Override
-    public boolean modificaImmagine(String email, Part filePart, GenericServlet servlet)  throws SQLException{
-        if(filePart == null || email == null || email.isEmpty() || utenteDAO.getByEmail(email) == null)
+    public boolean modificaImmagine(UtenteBean utente, Part filePart, GenericServlet servlet)  throws SQLException{
+        if(filePart == null || utente == null)
             return false;
-
-        UtenteBean utenteBean = new UtenteBean();
 
         String fileName = Paths.get(filePart.getSubmittedFileName()).getFileName().toString();
         String applicationPath = servlet.getServletContext().getRealPath("");
@@ -77,9 +75,9 @@ public class GestioneUtentiServiceImpl implements GestioneUtentiService{
         }
         String relativeFileName = sanitizedFileName;
 
-        utenteBean.setImmagine(relativeFileName);
+        utente.setImmagine(relativeFileName);
 
-        return utenteDAO.update(utenteBean, email);
+        return utenteDAO.update(utente, utente.getEmail());
     }
 
     @Override

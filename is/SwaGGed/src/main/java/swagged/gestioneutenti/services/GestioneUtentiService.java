@@ -10,7 +10,7 @@ import java.util.List;
 public interface GestioneUtentiService {
     boolean ban (String email) throws SQLException;
     List<UtenteBean> cerca(String substring) throws SQLException;
-    boolean modificaImmagine(String email, Part filePart, GenericServlet servlet) throws SQLException;
+    boolean modificaImmagine(UtenteBean utente, Part filePart, GenericServlet servlet) throws SQLException;
     boolean checkEmail(String email) throws SQLException;
     boolean checkUsername(String username) throws SQLException;
     UtenteBean visualizza(String username) throws SQLException;

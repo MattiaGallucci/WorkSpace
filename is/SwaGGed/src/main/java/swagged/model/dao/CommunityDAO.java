@@ -18,7 +18,7 @@ public class CommunityDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "INSERT INTO " + TABLE_NAME + " (nome, descrizione, segnalazioni, iscritti, utenteEmail) VALUES (?,?,?,?,?);";
+        String query = "INSERT INTO " + TABLE_NAME + " (nome, descrizione, iscritti, utenteEmail) VALUES (?,?,?,?);";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
@@ -26,9 +26,8 @@ public class CommunityDAO {
 
             statement.setString(1, bean.getNome());
             statement.setString(2, bean.getDescrizione());
-            statement.setInt(3, bean.getSegnalazioni());
-            statement.setInt(4, bean.getIscritti());
-            statement.setString(5, bean.getUtenteEmail());
+            statement.setInt(3, bean.getIscritti());
+            statement.setString(4, bean.getUtenteEmail());
 
             result = statement.executeUpdate();
             con.commit();
@@ -70,17 +69,16 @@ public class CommunityDAO {
         PreparedStatement statement = null;
         int result = 0;
 
-        String query = "UPDATE " + TABLE_NAME + " SET descrizione = ?, segnalazioni = ?, iscritti = ?, utenteEmail = ? WHERE nome = ?;";
+        String query = "UPDATE " + TABLE_NAME + " SET descrizione = ?, iscritti = ?, utenteEmail = ? WHERE nome = ?;";
 
         try {
             con = DriverManagerConnectionPool.getConnection();
             statement = con.prepareStatement(query);
 
             statement.setString(1, bean.getDescrizione());
-            statement.setInt(2, bean.getSegnalazioni());
-            statement.setInt(3, bean.getIscritti());
-            statement.setString(4, bean.getUtenteEmail());
-            statement.setString(5, bean.getNome());
+            statement.setInt(2, bean.getIscritti());
+            statement.setString(3, bean.getUtenteEmail());
+            statement.setString(4, bean.getNome());
 
             result = statement.executeUpdate();
             con.commit();
@@ -108,7 +106,6 @@ public class CommunityDAO {
                 community = new CommunityBean();
                 community.setNome(result.getString("nome"));
                 community.setDescrizione(result.getString("descrizione"));
-                community.setSegnalazioni(result.getInt("segnalazioni"));
                 community.setIscritti(result.getInt("iscritti"));
                 community.setUtenteEmail(result.getString("utenteEmail"));
             }
@@ -135,7 +132,6 @@ public class CommunityDAO {
                 CommunityBean community = new CommunityBean();
                 community.setNome(result.getString("nome"));
                 community.setDescrizione(result.getString("descrizione"));
-                community.setSegnalazioni(result.getInt("segnalazioni"));
                 community.setIscritti(result.getInt("iscritti"));
                 community.setUtenteEmail(result.getString("utenteEmail"));
 
@@ -166,7 +162,6 @@ public class CommunityDAO {
                 CommunityBean community = new CommunityBean();
                 community.setNome(result.getString("nome"));
                 community.setDescrizione(result.getString("descrizione"));
-                community.setSegnalazioni(result.getInt("segnalazioni"));
                 community.setIscritti(result.getInt("iscritti"));
                 community.setUtenteEmail(result.getString("utenteEmail"));
 
@@ -204,7 +199,6 @@ public class CommunityDAO {
                 CommunityBean community = new CommunityBean();
                 community.setNome(result.getString("nome"));
                 community.setDescrizione(result.getString("descrizione"));
-                community.setSegnalazioni(result.getInt("segnalazioni"));
                 community.setIscritti(result.getInt("iscritti"));
                 community.setUtenteEmail(result.getString("utenteEmail"));
 

@@ -3,12 +3,12 @@ package swagged.model.bean;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class CommunityBean implements Serializable, Bean {
     private static final long serialVersionUID = 1L;
     private String nome;
     private String descrizione;
-    private int segnalazioni;
     private int iscritti;
     private String utenteEmail;
 
@@ -17,7 +17,6 @@ public class CommunityBean implements Serializable, Bean {
     public CommunityBean() {
         this.nome = "";
         this.descrizione = "";
-        this.segnalazioni = 0;
         this.iscritti = 0;
         this.utenteEmail = "";
         post = new ArrayList<PostBean>();
@@ -37,18 +36,6 @@ public class CommunityBean implements Serializable, Bean {
 
     public void setDescrizione(String descrizione) {
         this.descrizione = descrizione;
-    }
-
-    public int getSegnalazioni() {
-        return segnalazioni;
-    }
-
-    public void setSegnalazioni(int segnalazioni) {
-        this.segnalazioni = segnalazioni;
-    }
-
-    public void aggiungiSegnalazione() {
-        this.segnalazioni++;
     }
 
     public int getIscritti() {
@@ -100,10 +87,24 @@ public class CommunityBean implements Serializable, Bean {
         return "CommunityBean{" +
                 "nome='" + nome + '\'' +
                 ", descrizione='" + descrizione + '\'' +
-                ", segnalazioni=" + segnalazioni +
                 ", iscritti=" + iscritti +
                 ", utenteEmail='" + utenteEmail + '\'' +
                 ", post=" + post +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        CommunityBean other = (CommunityBean) obj;
+        return nome != null && nome.equals(other.nome);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome);
+    }
+
 }

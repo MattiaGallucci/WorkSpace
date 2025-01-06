@@ -50,50 +50,60 @@
                         <div class="card-body profile-page p-0">
                             <div class="profile-header">
                                 <div class="position-relative">
-                                    <img src="<%=request.getContextPath()%>/assets/images/trasparente.png" alt="profile-bg" class="rounded img-fluid">
+                                    <img src="<%=request.getContextPath()%>/assets/images/trasparente.png"
+                                         alt="profile-bg" class="rounded img-fluid">
                                 </div>
                                 <div class="user-detail text-center mb-3">
                                     <div class="profile-detail">
-                                        <h3 class=""><%=community.getNome()%></h3>
+                                        <h3 class=""><%=community.getNome()%>
+                                        </h3>
                                     </div>
                                     <%
-                                        if(community.getDescrizione() != null && community.getDescrizione().length()>0){
+                                        if (community.getDescrizione() != null && community.getDescrizione().length() > 0) {
                                     %>
                                     <span><%=community.getDescrizione()%></span>
-                                        <%
-                                            }
-                                        %>
+                                    <%
+                                        }
+                                    %>
                                 </div>
                                 <div class="profile-info p-3 d-flex align-items-center justify-content-between position-relative">
                                     <div class="social-info">
                                         <ul class="social-data-block d-flex align-items-center justify-content-between list-inline p-0 m-0">
                                             <li class="text-center ps-3">
                                                 <h6>Iscritti</h6>
-                                                <p class="mb-0"><%=community.getIscritti()%></p>
+                                                <p class="mb-0"><%=community.getIscritti()%>
+                                                </p>
                                             </li>
                                         </ul>
                                     </div>
-                                        <form action="community" method="post">
-                                            <input type="hidden" name="mode" value="iscrizione">
-                                            <input type="hidden" name="nome" value="<%=community.getNome()%>">
-                                            <%
-                                                IscrivitiCommunityBean iscrivitiCommunityBean = new IscrivitiCommunityBean();
-                                                iscrivitiCommunityBean.setCommunityNome(community.getNome());
-                                                iscrivitiCommunityBean.setUtenteEmail(utente.getEmail());
-                                                if(utente != null && !utente.get("communityIscritto").contains(iscrivitiCommunityBean)){
-                                            %>
-                                            <button type="submit" class="btn btn-primary mb-2">Iscriviti</button>
-                                            <%
-                                            }else if(utente != null && utente.get("communityIscritto").contains(iscrivitiCommunityBean)){
-                                            %>
-                                            <button type="submit" class="btn btn-primary mb-2">Disiscriviti</button>
-                                            <%
-                                                }
-                                            %>
-                                        </form>
+                                    <%
+                                        if(utente != null){
+                                    %>
+                                    <form action="community" method="post">
+                                        <input type="hidden" name="mode" value="iscrizione">
+                                        <input type="hidden" name="nome" value="<%=community.getNome()%>">
+                                        <%
+                                            IscrivitiCommunityBean iscrivitiCommunityBean = new IscrivitiCommunityBean();
+                                            iscrivitiCommunityBean.setCommunityNome(community.getNome());
+                                            iscrivitiCommunityBean.setUtenteEmail(utente.getEmail());
+                                            if (utente != null && !utente.get("communityIscritto").contains(iscrivitiCommunityBean)) {
+                                        %>
+                                        <button type="submit" class="btn btn-primary mb-2">Iscriviti</button>
+                                        <%
+                                        } else if (utente != null && utente.get("communityIscritto").contains(iscrivitiCommunityBean)) {
+                                        %>
+                                        <button type="submit" class="btn btn-primary mb-2">Disiscriviti</button>
+                                        <%
+                                            }
+                                        %>
+                                    </form>
+                                    <%
+                                        }
+                                    %>
                                 </div>
                             </div>
-                            <div class="modal fade" id="post-modal-community" tabindex="-1" aria-labelledby="post-modalLabel"
+                            <div class="modal fade" id="post-modal-community" tabindex="-1"
+                                 aria-labelledby="post-modalLabel"
                                  aria-hidden="true">
                                 <div class="modal-dialog   modal-fullscreen-sm-down">
                                     <div class="modal-content">
@@ -106,8 +116,10 @@
                                             <form action="community" method="post">
                                                 <input type="hidden" name="mode" value="create">
                                                 <div class="form-group">
-                                                    <label class="form-label" for="communityNomeCreazione">Nome community</label>
-                                                    <input type="text" class="form-control mb-0" id="communityNomeCreazione"
+                                                    <label class="form-label" for="communityNomeCreazione">Nome
+                                                        community</label>
+                                                    <input type="text" class="form-control mb-0"
+                                                           id="communityNomeCreazione"
                                                            name="communityNomeCreazione"
                                                            placeholder="Inserisci il nome della community"
                                                            required>
@@ -119,7 +131,8 @@
                                                            placeholder="Inserisci descrizione">
                                                 </div>
                                                 <hr>
-                                                <button type="submit" class="btn btn-primary d-block w-100 mt-3">Crea</button>
+                                                <button type="submit" class="btn btn-primary d-block w-100 mt-3">Crea
+                                                </button>
                                             </form>
                                         </div>
                                     </div>
@@ -131,7 +144,7 @@
 
                 <div class="col-lg-8">
                     <%
-                        if(utente != null){
+                        if (utente != null) {
                     %>
                     <div id="post-modal-data" class="card">
                         <div class="card-header d-flex justify-content-between">
@@ -196,7 +209,6 @@
                     %>
 
 
-
                     <div class="card">
                         <div class="card-body">
                             <%
@@ -204,108 +216,137 @@
                                 UtenteBean utenteBean = new UtenteBean();
                                 for (PostBean post : community.getPost()) {
                             %>
-                                <div class="post-item">
-                                    <div class="user-post-data py-3">
-                                        <div class="d-flex align-items-center">
-                                            <%
-                                                utenteBean = utenteDAO.getByEmail(post.getUtenteEmail());
-                                            %>
-                                            <div class=" me-3">
-                                                <img src="<%=request.getContextPath() + "/assets/images/pfp/" + utenteBean.getImmagine()%>"
-                                                     alt="" class="avatar-60 rounded-circle">
-                                            </div>
-                                            <div class="w-100">
-                                                <div class="d-flex justify-content-between">
-                                                    <div class="">
-                                                        <h5 class="mb-0 d-inline-block">
-                                                            <a href="<%=request.getContextPath()%>/common/profilo.jsp?username=<%=utenteBean.getUsername()%>"
-                                                               class=""><%=utenteBean.getUsername()%>
-                                                            </a>
-                                                        </h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <%
-                                                if(utente != null && (post.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())){
-                                            %>
-                                            <div class="card-post-toolbar">
-                                                <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
-                                                    <i class="ri-delete-bin-7-line h4"></i>
-                                                </a>
-                                            </div>
-                                            <%
-                                                }
-                                            %>
+                            <div class="post-item">
+                                <div class="user-post-data py-3">
+                                    <div class="d-flex align-items-center">
+                                        <%
+                                            utenteBean = utenteDAO.getByEmail(post.getUtenteEmail());
+                                        %>
+                                        <div class=" me-3">
+                                            <img src="<%=request.getContextPath() + "/assets/images/pfp/" + utenteBean.getImmagine()%>"
+                                                 alt="" class="avatar-60 rounded-circle">
                                         </div>
-                                    </div>
-                                    <div class="user-post">
-                                        <h4 class="card-title"><%=post.getTitolo()%>
-                                        </h4>
-                                    </div>
-                                    <%
-                                        if (post.getCorpo().length() > 0) {
-                                    %>
-                                    <div class="user-post">
-                                        <p><%=post.getCorpo()%></p>
-                                    </div>
-                                    <%
-                                        }
-                                        if (post.getImmagine() != null && !post.getImmagine().isEmpty()) {
-                                    %>
-                                    <div class="user-post">
-                                        <img src="<%=request.getContextPath() + "/assets/images/post/" + post.getImmagine()%>"
-                                             alt="post-image" class="img-fluid w-100"/>
-                                    </div>
-                                    <%
-                                        }
-                                    %>
-                                    <div class="comment-area mt-3">
-                                        <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                            <div class="like-block position-relative d-flex align-items-center">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="like-data">
-                                                        <%
-                                                            if (utente != null && utente.get("postApprezzati").contains(post)) {
-                                                        %>
-                                                        <a href="<%=request.getContextPath()%>/post?mode=like&id=<%=post.getId()%>">
-                                                            <i class="fa fa-thumbs-up" style="color: #50b5ff"></i>
+                                        <div class="w-100">
+                                            <div class="d-flex justify-content-between">
+                                                <div class="">
+                                                    <h5 class="mb-0 d-inline-block">
+                                                        <a href="<%=request.getContextPath()%>/utente?mode=visualizza&username=<%=utenteBean.getUsername()%>"
+                                                           class=""><%=utenteBean.getUsername()%>
                                                         </a>
-                                                        <%
-                                                        } else if(utente != null && !utente.get("postApprezzati").contains(post)){
-                                                        %>
-                                                        <a href="<%=request.getContextPath()%>/post?mode=like&id=<%=post.getId()%>">
-                                                            <i class="fa fa-thumbs-up" style="color: #777d74"></i>
-                                                        </a>
-                                                        <%
-                                                        } else{
-                                                        %>
-                                                        <i class="fa fa-thumbs-up" style="color: #777d74"></i>
-                                                        <%
-                                                            }
-                                                        %>
+                                                    </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <%
+                                            if (utente != null && (post.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())) {
+                                        %>
+                                        <div class="card-post-toolbar">
+                                            <button type="button" class="btn btn-link mb-1" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal">
+                                                <i class="ri-delete-bin-7-line h4"></i>
+                                            </button>
+                                        </div>
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                             aria-labelledby="exampleModalLabel" style="display: none;"
+                                             aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">Confermare
+                                                            eliminazione?</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                                aria-label="Close">
+
+                                                        </button>
                                                     </div>
-                                                    <div class="total-like-block ms-2 me-3">
-                                                        <label><%=post.getLikes()%></label>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-bs-dismiss="modal">Annulla
+                                                        </button>
+                                                        <a href="<%=request.getContextPath()%>/post?mode=remove&id=<%=post.getId()%>">
+                                                            <button type="button" class="btn btn-primary">Conferma
+                                                            </button>
+                                                        </a>
                                                     </div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <%
+                                            }
+                                        %>
+                                    </div>
+                                </div>
+                                <div class="user-post">
+                                    <h4 class="card-title"><%=post.getTitolo()%>
+                                    </h4>
+                                </div>
+                                <%
+                                    if (post.getCorpo().length() > 0) {
+                                %>
+                                <div class="user-post">
+                                    <p><%=post.getCorpo()%>
+                                    </p>
+                                </div>
+                                <%
+                                    }
+                                    if (post.getImmagine() != null && !post.getImmagine().isEmpty()) {
+                                %>
+                                <div class="user-post">
+                                    <img src="<%=request.getContextPath() + "/assets/images/post/" + post.getImmagine()%>"
+                                         alt="post-image" class="img-fluid w-100"/>
+                                </div>
+                                <%
+                                    }
+                                %>
+                                <div class="comment-area mt-3">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                                        <div class="like-block position-relative d-flex align-items-center">
+                                            <div class="d-flex align-items-center">
                                                 <div class="like-data">
-                                                    <a href="<%=request.getContextPath()%>/post?mode=visualizza&id=<%=post.getId()%>">
-                                                        <i class="far fa-comments"></i>
+                                                    <%
+                                                        if (utente != null && utente.get("postApprezzati").contains(post)) {
+                                                    %>
+                                                    <a href="<%=request.getContextPath()%>/post?mode=like&id=<%=post.getId()%>">
+                                                        <i class="fa fa-thumbs-up" style="color: #50b5ff"></i>
                                                     </a>
+                                                    <%
+                                                    } else if (utente != null && !utente.get("postApprezzati").contains(post)) {
+                                                    %>
+                                                    <a href="<%=request.getContextPath()%>/post?mode=like&id=<%=post.getId()%>">
+                                                        <i class="fa fa-thumbs-up" style="color: #777d74"></i>
+                                                    </a>
+                                                    <%
+                                                    } else {
+                                                    %>
+                                                    <i class="fa fa-thumbs-up" style="color: #777d74"></i>
+                                                    <%
+                                                        }
+                                                    %>
                                                 </div>
                                                 <div class="total-like-block ms-2 me-3">
-                                                    <a href="<%=request.getContextPath()%>/post?mode=visualizza&id=<%=post.getId()%>">
-                                                        <label><%=post.getNumeroCommenti()%></label>
-                                                    </a>
+                                                    <label><%=post.getLikes()%>
+                                                    </label>
                                                 </div>
+                                            </div>
+                                            <div class="like-data">
+                                                <a href="<%=request.getContextPath()%>/post?mode=visualizza&id=<%=post.getId()%>">
+                                                    <i class="far fa-comments"></i>
+                                                </a>
+                                            </div>
+                                            <div class="total-like-block ms-2 me-3">
+                                                <a href="<%=request.getContextPath()%>/post?mode=visualizza&id=<%=post.getId()%>">
+                                                    <label><%=post.getNumeroCommenti()%>
+                                                    </label>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <hr>
-                                    <%
-                                    }
-                                %>
+                            </div>
+                            <hr>
+                            <%
+                                }
+                            %>
                         </div>
                     </div>
                 </div>
@@ -335,7 +376,7 @@
                                                     throw new RuntimeException(e);
                                                 }
                                             %>
-                                            <a href="<%=request.getContextPath()%>/utente?mode=profilo&username=<%=creatore.getUsername()%>"
+                                            <a href="<%=request.getContextPath()%>/utente?mode=visualizza&username=<%=creatore.getUsername()%>"
                                                class=" ">
                                                 <p class="mb-0"><%=creatore.getUsername()%>
                                                 </p>
@@ -355,6 +396,55 @@
                                         </div>
                                     </div>
                                 </li>
+                                <%
+                                    if (utente != null && (community.getUtenteEmail().equals(utente.getEmail()) || utente.isAdmin())) {
+                                %>
+                                <li class="mb-3">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0">
+                                            <i class="ri-delete-bin-7-line h4"></i>
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
+
+
+                                            <div class="card-post-toolbar">
+                                                <button type="button" class="btn bg-danger" data-bs-toggle="modal"
+                                                        data-bs-target="#exampleModal-community">
+                                                    Elimina
+                                                </button>
+                                            </div>
+                                            <div class="modal fade" id="exampleModal-community" tabindex="-1"
+                                                 aria-labelledby="exampleModalLabel" style="display: none;"
+                                                 aria-hidden="true">
+                                                <div class="modal-dialog" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel-community">
+                                                                Confermare eliminazione?</h5>
+                                                            <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close">
+
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary"
+                                                                    data-bs-dismiss="modal">Annulla
+                                                            </button>
+                                                            <a href="<%=request.getContextPath()%>/community?mode=remove">
+                                                                <button type="button" class="btn btn-primary">Conferma
+                                                                </button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <%
+                                    }
+                                %>
                             </ul>
                         </div>
                     </div>
