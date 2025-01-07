@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet("/utente")
 @MultipartConfig(fileSizeThreshold = 1024 * 1024 * 2, maxFileSize = 1024 * 1024 * 10, maxRequestSize = 1024 * 1024 * 50)
@@ -42,6 +43,11 @@ public class UtenteServlet extends HttpServlet {
                 UtenteBean bannato = utenteDAO.getByEmail(emailToBan);
                 gestioneUtenti.ban(emailToBan);
                 response.sendRedirect(request.getContextPath() + "/utente?mode=visualizza&username=" + bannato.getUsername());
+            } else if (mode.equals("cerca")) {
+                String substring = request.getParameter("substring");
+                List<UtenteBean> risultati = gestioneUtenti.cerca(substring);
+                request.getSession().setAttribute("risultati", risultati);
+                response.sendRedirect(request.getContextPath() + "/ricerca.jsp");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -54,10 +60,7 @@ public class UtenteServlet extends HttpServlet {
         UtenteDAO utenteDAO = new UtenteDAO();
 
         try {
-             if (mode.equals("cerca")) {
-                String substring = request.getParameter("substring");
-                gestioneUtenti.cerca(substring);
-            } else if (mode.equals("modificaImmagine")) {
+            if (mode.equals("modificaImmagine")) {
                 UtenteBean utente = (UtenteBean) request.getSession().getAttribute("utente");
                 Part filePart = request.getPart("immagine");
                 gestioneUtenti.modificaImmagine(utente, filePart, this);

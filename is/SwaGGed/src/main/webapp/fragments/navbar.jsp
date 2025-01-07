@@ -1,4 +1,5 @@
 <%@ page import="swagged.model.bean.UtenteBean" %>
+<%@ page import="java.net.URLEncoder" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     UtenteBean utente = (UtenteBean) session.getAttribute("utente");
@@ -20,8 +21,17 @@
     <link rel="stylesheet" href="<%=request.getContextPath()%>/assets/vendor/font-awesome-line-awesome/css/all.min.css">
     <link rel="stylesheet"
           href="<%=request.getContextPath()%>/assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+    <style>
+        button.btn-link {
+            background: none; /* Rimuove lo sfondo */
+            border: none; /* Rimuove il bordo */
+            padding: 0; /* Rimuove il padding, se presente */
+            cursor: pointer; /* Aggiunge il cursore tipo mano quando si passa sopra */
+        }
+    </style>
 </head>
 <body>
+
 <div class="iq-top-navbar">
     <div class="iq-navbar-custom">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -31,7 +41,7 @@
                     <span>SwaGGed</span>
                 </a>
                 <%
-                    if(utente!=null){
+                    if (utente != null) {
                 %>
                 <div class="iq-menu-bt align-self-center">
                     <div class="wrapper-menu">
@@ -43,17 +53,16 @@
                 %>
             </div>
             <div class="iq-search-bar device-search">
-                <form action="#" class="searchbox">
-                    <a class="search-link" href="#"><i class="ri-search-line"></i></a>
-                    <input type="text" class="text search-input" placeholder="Search here...">
+                <form action="<%=request.getContextPath() + "/homepage.jsp"%>" class="searchbox" method="get">
+                <button class="btn-link search-link" href="" type="submit"><i class="ri-search-line"></i></button>
+                    <input type="text" class="text search-input" placeholder="Cerca contenuti" name="query">
+                    <select class="form-select form-select-sm mb-3" name="type">
+                        <option selected="" value="post">Post</option>
+                        <option value="utente">Utente</option>
+                        <option value="community">Community</option>
+                    </select>
                 </form>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-label="Toggle navigation">
-                <i class="ri-menu-3-line"></i>
-            </button>
-
             <%
                 if (utente != null) {
             %>
@@ -62,7 +71,8 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="   d-flex align-items-center dropdown-toggle" id="drop-down-arrow"
                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="<%=request.getContextPath() + "/assets/images/pfp/" + utente.getImmagine()%>" class="img-fluid rounded-circle me-3" alt="user">
+                            <img src="<%=request.getContextPath() + "/assets/images/pfp/" + utente.getImmagine()%>"
+                                 class="img-fluid rounded-circle me-3" alt="user">
                             <div class="caption">
                                 <h6 class="mb-0 line-height"><%=utente.getUsername()%>
                                 </h6>
@@ -77,7 +87,8 @@
                                     </div>
                                 </div>
                                 <div class="card-body p-0 ">
-                                    <a href="<%=request.getContextPath()%>/utente?mode=visualizza&username=<%=utente.getUsername()%>" class="iq-sub-card iq-bg-primary-hover">
+                                    <a href="<%=request.getContextPath()%>/utente?mode=visualizza&username=<%=utente.getUsername()%>"
+                                       class="iq-sub-card iq-bg-primary-hover">
                                         <div class="d-flex align-items-center">
                                             <div class="rounded card-icon bg-soft-primary">
                                                 <i class="ri-file-user-line"></i>

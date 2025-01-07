@@ -1,8 +1,10 @@
 package swagged.gestionecommunity.controller;
 
 import swagged.gestionecommunity.services.GestioneCommunityServiceImpl;
+import swagged.model.bean.CommentoBean;
 import swagged.model.bean.CommunityBean;
 import swagged.model.bean.UtenteBean;
+import swagged.model.dao.CommentoDAO;
 import swagged.model.dao.CommunityDAO;
 
 import javax.servlet.ServletException;
@@ -12,6 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.List;
 
 @WebServlet("/community")
 public class CommunityServlet extends HttpServlet {
@@ -28,11 +31,18 @@ public class CommunityServlet extends HttpServlet {
                 request.getSession().setAttribute("community", community);
                 response.sendRedirect(request.getContextPath() + "/community.jsp");
             } else if (mode.equals("remove")) {
-                CommunityBean community = (CommunityBean) request.getSession().getAttribute("community");
+                String nome = request.getParameter("nome");
+                CommunityDAO communityDAO = new CommunityDAO();
+                CommunityBean community = communityDAO.getByNome(nome);
                 UtenteBean utente = (UtenteBean) request.getSession().getAttribute("utente");
                 gestioneCommunity.remove(community, utente);
                 request.getSession().setAttribute("utente", utente);
                 response.sendRedirect(request.getContextPath() + "/homepage.jsp");
+            } else if (mode.equals("cerca")) {
+                String substring = request.getParameter("substring");
+                List<CommunityBean> risultati = gestioneCommunity.cerca(substring);
+                request.getSession().setAttribute("risultati", risultati);
+                response.sendRedirect(request.getContextPath() + "/ricerca.jsp");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -58,9 +68,6 @@ public class CommunityServlet extends HttpServlet {
                 CommunityBean community = gestioneCommunity.iscrizione(utente, nome);
                 request.getSession().setAttribute("utente", utente);
                 response.sendRedirect(request.getContextPath() + "/community?mode=visualizza&nome=" + community.getNome());
-            } else if (mode.equals("cerca")) {
-                String substring = request.getParameter("substring");
-                gestioneCommunity.cerca(substring);
             } else if (mode.equals("checkNome")) {
                 response.setContentType("text/plain");
                 String nome = request.getParameter("nome");

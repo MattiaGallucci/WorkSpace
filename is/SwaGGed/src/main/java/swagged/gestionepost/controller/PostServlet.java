@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet("/post")
 @MultipartConfig(fileSizeThreshold = 1024 * 1024 * 2, maxFileSize = 1024 * 1024 * 10, maxRequestSize = 1024 * 1024 * 50)
@@ -44,6 +45,11 @@ public class PostServlet extends HttpServlet {
                 gestionePost.remove(id, utente);
                 request.getSession().setAttribute("utente", utente);
                 response.sendRedirect(request.getContextPath() + "/homepage.jsp");
+            } else if (mode.equals("cerca")) {
+                String substring = request.getParameter("substring");
+                List<PostBean> risultati = gestionePost.cerca(substring);
+                request.getSession().setAttribute("risultati", risultati);
+                response.sendRedirect(request.getContextPath() + "/ricerca.jsp");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -74,9 +80,6 @@ public class PostServlet extends HttpServlet {
                 } else {
                     response.sendRedirect(request.getContextPath() + "/error.jsp"); // Gestione degli errori
                 }
-            } else if (mode.equals("cerca")) {
-                String substring = request.getParameter("substring");
-                gestionePost.cerca(substring);
             } else if (mode.equals("home")) {
                 gestionePost.home();
             }

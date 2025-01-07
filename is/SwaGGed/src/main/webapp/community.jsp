@@ -430,7 +430,7 @@
                                                             <button type="button" class="btn btn-secondary"
                                                                     data-bs-dismiss="modal">Annulla
                                                             </button>
-                                                            <a href="<%=request.getContextPath()%>/community?mode=remove">
+                                                            <a href="<%=request.getContextPath()%>/community?mode=remove&nome=<%=community.getNome()%>">
                                                                 <button type="button" class="btn btn-primary">Conferma
                                                                 </button>
                                                             </a>
