@@ -46,6 +46,15 @@
                         <h1 class="mb-0">Accedi</h1>
                         <form class="mt-4" action="login" method="post">
                             <div class="form-group">
+                                <%
+                                    String error = (String) session.getAttribute("error");
+                                    if (error != null) {
+                                %>
+                                <p style="color: #ff9b8a;" id="error-login">Username e/o password non validi</p>
+                                <%
+                                        session.removeAttribute("error");
+                                    }
+                                %>
                                 <label class="form-label" for="username">Username</label>
                                 <input type="text" class="form-control mb-0" id="username" name ="username" placeholder="Inserisci username">
                             </div>

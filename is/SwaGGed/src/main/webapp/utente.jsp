@@ -140,7 +140,7 @@
                                                     class="ri-close-fill"></i></button>
                                         </div>
                                         <div class="modal-body">
-                                            <form action="community" method="post">
+                                            <form action="community" method="post" id="creaCommunity">
                                                 <input type="hidden" name="mode" value="create">
                                                 <div class="form-group">
                                                     <label class="form-label" for="communityNomeCreazione">Nome
@@ -340,5 +340,8 @@
 <script src="<%=request.getContextPath()%>/assets/js/app.js"></script>
 <script src="<%=request.getContextPath()%>/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>
 <script src="<%=request.getContextPath()%>/assets/js/lottie.js"></script>
+
+<script src="<%=request.getContextPath()%>/assets/js/validazioneCommunity.js"></script>
+
 </body>
 </html>

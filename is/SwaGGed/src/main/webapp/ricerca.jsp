@@ -33,13 +33,45 @@
 
 </head>
 <body class="  ">
+<jsp:include page="fragments/sidebar.jsp"/>
+<jsp:include page="fragments/navbar.jsp"/>
+<div class="modal fade" id="post-modal-community" tabindex="-1" aria-labelledby="post-modalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog   modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="post-modalLabel-community">Crea Community</h5>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i
+                        class="ri-close-fill"></i></button>
+            </div>
+            <div class="modal-body">
+                <form action="community" method="post" id="creaCommunity">
+                    <input type="hidden" name="mode" value="create">
+                    <div class="form-group">
+                        <label class="form-label" for="communityNomeCreazione">Nome community</label>
+                        <input type="text" class="form-control mb-0" id="communityNomeCreazione"
+                               name="communityNomeCreazione"
+                               placeholder="Inserisci il nome della community"
+                               required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="descrizione">Descrizione</label>
+                        <input type="text" class="form-control mb-0" id="descrizione"
+                               name="descrizione"
+                               placeholder="Inserisci descrizione">
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn btn-primary d-block w-100 mt-3">Crea</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <%
     if (!(risultati.size()>0)) {
 %>
 <div class="wrapper">
-    <jsp:include page="fragments/sidebar.jsp"/>
-    <jsp:include page="fragments/navbar.jsp"/>
     <div class="container p-0">
         <div class="row no-gutters height-self-center">
             <div class="col-sm-12 text-center align-self-center">
@@ -54,19 +86,8 @@
 } else {
 %>
 
-<!-- loader Start -->
-<div id="loading">
-    <div id="loading-center">
-    </div>
-</div>
-<!-- loader END -->
 <!-- Wrapper Start -->
 <div class="wrapper">
-    <jsp:include page="fragments/sidebar.jsp"/>
-    <jsp:include page="fragments/navbar.jsp"/>
-
-
-
     <%
         // Controlla se il form è stato inviato
         String type = request.getParameter("type");
@@ -231,8 +252,6 @@
                             }
                         }
                     %>
-
-
                     <%
                         if (risultati.get(0) instanceof CommunityBean) {
                             for (Bean bean : risultati) {
@@ -300,7 +319,6 @@
                             }
                         }
                     %>
-
                     <%
                         if (risultati.get(0) instanceof UtenteBean) {
                             for (Bean bean : risultati) {
@@ -371,8 +389,6 @@
                             }
                         }
                     %>
-
-
                 </div>
             </div>
         </div>
@@ -396,49 +412,12 @@
 <script src="<%=request.getContextPath()%>/vendor/vanillajs-datepicker/dist/js/datepicker.min.js"></script>
 <script src="<%=request.getContextPath()%>/assets/js/lottie.js"></script>
 
-<!-- Offcanvas start -->
-<div class="offcanvas offcanvas-bottom share-offcanvas" tabindex="-1" id="share-btn" aria-labelledby="shareBottomLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="shareBottomLabel">Share</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body small">
-        <div class="d-flex flex-wrap align-items-center">
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/08.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>Facebook</h6>
-            </div>
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/09.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>Twitter</h6>
-            </div>
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/10.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>Instagram</h6>
-            </div>
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/11.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>Google Plus</h6>
-            </div>
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/13.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>In</h6>
-            </div>
-            <div class="text-center me-3 mb-3">
-                <img src="<%=request.getContextPath()%>/assets/images/icon/12.png" class="img-fluid rounded mb-2"
-                     alt="">
-                <h6>YouTube</h6>
-            </div>
-        </div>
-    </div>
-</div>
+<script src="<%=request.getContextPath()%>/assets/js/validazioneCommunity.js"></script>
+
 <%
     }
 %>
+
+<script src="<%=request.getContextPath()%>/assets/js/validazioneCommunity.js"></script>
 </body>
 </html>

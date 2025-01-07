@@ -58,7 +58,7 @@ public class LoginServlet extends HttpServlet {
         {
             user = database.getByUsername(username);
 
-            if(user.getUsername().equals(username) && user.getPassword().equals(password64)) {
+            if(user != null &&(user.getUsername().equals(username) && user.getPassword().equals(password64))) {
                 return user;
             }
         }

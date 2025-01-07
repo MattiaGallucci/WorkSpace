@@ -82,7 +82,7 @@ public class GestioneUtentiServiceImpl implements GestioneUtentiService{
 
     @Override
     public boolean checkEmail(String email)  throws SQLException{
-        if(email == null || email.isEmpty() || utenteDAO.getByEmail(email) != null)
+        if(email == null || email.isEmpty())
             return false;
 
         UtenteBean utente = utenteDAO.getByEmail(email);
@@ -91,7 +91,7 @@ public class GestioneUtentiServiceImpl implements GestioneUtentiService{
 
     @Override
     public boolean checkUsername(String username)  throws SQLException{
-        if(username == null || username.isEmpty() || utenteDAO.getByUsername(username) != null)
+        if(username == null || username.isEmpty())
             return false;
 
         UtenteBean utente = utenteDAO.getByUsername(username);

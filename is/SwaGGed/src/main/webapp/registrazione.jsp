@@ -44,34 +44,33 @@
                 <div class="col-md-6 bg-white pt-5 pt-5 pb-lg-0 pb-5">
                     <div class="sign-in-from">
                         <h1 class="mb-0">Registrati</h1>
-                        <form class="mt-4" action="registrazione", method="post">
+                        <form class="mt-4" action="registrazione" method="post">
                             <input type="hidden" name="mode" value="register">
                             <div class="form-group">
                                 <label class="form-label" for="email">Email</label>
                                 <input type="email" class="form-control mb-0" id="email" name="email" placeholder="Inserisci email">
+                                <p class="invalid-feedback" id="error-email"></p>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="username">Username</label>
                                 <input type="text" class="form-control mb-0" id="username" name="username" placeholder="Inserisci username">
+                                <p class="invalid-feedback" id="error-username"></p>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="password">Password</label>
                                 <input type="password" class="form-control mb-0" id="password" name="password" placeholder="Password">
+                                <p class="invalid-feedback" id="error-pwd"></p>
                             </div>
                             <div class="form-group">
                                 <label class="form-label" for="passwordCheck">Ripeti password</label>
                                 <input type="password" class="form-control mb-0" id="passwordCheck" name="passwordCheck" placeholder="Ripeti password">
+                                <p class="invalid-feedback" id="error-pwdchk"></p>
                             </div>
                             <div class="d-inline-block w-100">
                                 <button type="submit" class="btn btn-primary float-end">Registrati</button>
                             </div>
                             <div class="sign-info">
                                 <span class="dark-color d-inline-block line-height-2">Hai gi&agrave; un account? <a href="<%=request.getContextPath()%>/login.jsp">Accedi</a></span>
-                                <ul class="iq-social-media">
-                                    <li><a href="#"><i class="ri-facebook-box-line"></i></a></li>
-                                    <li><a href="#"><i class="ri-twitter-line"></i></a></li>
-                                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
-                                </ul>
                             </div>
                         </form>
                     </div>
@@ -100,6 +99,7 @@
     <!-- Lottie JavaScript -->
     <script src="<%=request.getContextPath()%>/assets/js/lottie.js"></script>
 
+    <script src="<%=request.getContextPath()%>/assets/js/validazioneRegistrazione.js"></script>
 
   </body>
 </html>
