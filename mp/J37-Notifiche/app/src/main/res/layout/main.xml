@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Toast" 
+        android:onClick="showToast"/>
+
+    <Button
+        android:id="@+id/buttonCustomToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonToast"
+        android:text="Toast Personalizzato" 
+        android:onClick="showCustomToast"/>
+    
+   <Button
+        android:id="@+id/buttonDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCustomToast"
+        android:layout_centerHorizontal="true"
+        android:text="Dialog" 
+        android:onClick="showDialog"/>
+
+    <Button
+        android:id="@+id/notificationShow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDialog"
+        android:layout_centerHorizontal="true"
+        android:text="Show Notification 1"
+        android:onClick="showNotification"/>
+
+    <Button
+        android:id="@+id/notificationShow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationShow1"
+        android:layout_centerHorizontal="true"
+        android:text="Show Notification 2"
+        android:onClick="showNotification2"/>
+
+    <Button
+        android:id="@+id/notificationCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationShow2"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel Notification" 
+        android:onClick="cancelNotification"/>
+    
+</RelativeLayout>
