@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/g1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIOCATORE X"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+    <GridLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/g2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIOCATORE O"
+        android:textSize="20dp"
+        android:layout_centerInParent="true"/>
+    <GridLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:backgroundTint="#26000000" />
+    </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mattia Gallucci"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#abcdef"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista:"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="true"/>
+    </FrameLayout>
+
+    <Spinner
+        android:id="@+id/oggetto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/quantita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="quantità"
+        android:text="0"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="inserisci"
+        android:text="Inserisci"/>
+</LinearLayout>
