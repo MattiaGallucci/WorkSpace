@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#abcdef"
+        android:gravity="center"
+        android:text="Gallucci Mattia"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvPunteggio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="PUNTEGGIO"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/punteggio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPunteggio"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="0"
+        android:textSize="40dp" />
+
+    <GridLayout
+        android:id="@+id/slot"
+        android:layout_width="350dp"
+        android:layout_height="262.5dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/grid_border"
+        android:columnCount="4"
+        android:rowCount="3">
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+
+        <TextView android:background="@drawable/grid_border"
+            android:id="@+id/tv11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="30dp" />
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="gioca"
+        android:text="Gioca" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="reset"
+        android:text="Reset" />
+
+</RelativeLayout>
