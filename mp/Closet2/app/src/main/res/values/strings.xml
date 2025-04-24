@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Contator App</string>
+    <string name="counter">COUNTER</string>
+    <string name="preview">PREVIEW</string>
+    <string name="carica">CARICA</string>
+    <string name="indietro">INDIETRO</string>
+    <string name="inserisci">INSERISCI</string>
+    <string name="carica_foto">Carica foto</string>
+    <string name="nome">nome</string>
+    <string name="notifiche">Notifiche</string>
+    <string name="imposta_notifiche">Imposta notifiche dopo n. utilizzi</string>
+    <string name="numero_utilizzi">Numero utilizzi</string>
+    <string name="salva">Salva</string>
+</resources>
