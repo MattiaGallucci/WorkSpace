@@ -1,6 +1,7 @@
 package com.example.closet2;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
@@ -38,33 +40,78 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
         return new CardViewHolder(view);
     }
 
+    private OnCardClickListener cardClickListener;
+
+    public interface OnCardClickListener {
+        void onCardClick(String cardId);
+    }
+
+    public CardAdapter(Context context, List<CardItem> cardItems, OnCounterChangeListener listener, OnCardClickListener cardClickListener) {
+        this.context = context;
+        this.cardItems = cardItems;
+        this.listener = listener;
+        this.cardClickListener = cardClickListener;
+    }
+
     @Override
     public void onBindViewHolder(@NonNull CardViewHolder holder, int position) {
         CardItem item = cardItems.get(position);
 
-        // Carica l'immagine usando Glide
+        // Load image using Glide
         Glide.with(context)
                 .load(item.getImageUri())
                 .centerCrop()
                 .into(holder.cardImage);
 
-        // Imposta il contatore
+        // Set counter
         holder.counterText.setText(String.valueOf(item.getCounter()));
 
-        // Gestisce i pulsanti di incremento e decremento
+        // Get the threshold from SharedPreferences
+        SharedPreferences prefs = context.getSharedPreferences("app_settings", Context.MODE_PRIVATE);
+        int threshold = prefs.getInt("counter_threshold", 4); // Default is 4
+
+        // Apply red border highlight if counter meets or exceeds threshold
+        if (item.getCounter() >= threshold) {
+            holder.itemView.setBackground(ContextCompat.getDrawable(context, R.drawable.card_border_highlight));
+        } else {
+            // Reset to default background
+            holder.itemView.setBackgroundResource(0);
+        }
+
+        // Apply red border highlight if counter is 4 or more
+        if (item.getCounter() >= 4) {
+            holder.itemView.setBackground(ContextCompat.getDrawable(context, R.drawable.card_border_highlight));
+        } else {
+            // Reset to default background
+            holder.itemView.setBackgroundResource(0);
+        }
+
+        // Handle increment button
         holder.incrementButton.setOnClickListener(v -> {
             item.incrementCounter();
             holder.counterText.setText(String.valueOf(item.getCounter()));
             if (listener != null) {
                 listener.onCounterChanged(item.getId(), item.getCounter());
             }
+            notifyItemChanged(position);
         });
 
+        // Handle decrement button
         holder.decrementButton.setOnClickListener(v -> {
-            item.decrementCounter();
-            holder.counterText.setText(String.valueOf(item.getCounter()));
-            if (listener != null) {
-                listener.onCounterChanged(item.getId(), item.getCounter());
+            if (item.getCounter() > 0) {
+                item.decrementCounter();
+                holder.counterText.setText(String.valueOf(item.getCounter()));
+                if (listener != null) {
+                    listener.onCounterChanged(item.getId(), item.getCounter());
+                }
+                notifyItemChanged(position);
+            }
+        });
+
+        // Handle card click
+        holder.itemView.setOnClickListener(v -> {
+            if (cardClickListener != null) {
+                cardClickListener.onCardClick(item.getId());
             }
         });
     }
@@ -92,5 +139,10 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardViewHolder
             incrementButton = itemView.findViewById(R.id.incrementButton);
             decrementButton = itemView.findViewById(R.id.decrementButton);
         }
+    }
+
+    public void updateCards(List<CardItem> newCards) {
+        this.cardItems = newCards;
+        notifyDataSetChanged();
     }
 }

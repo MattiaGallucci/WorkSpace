@@ -13,13 +13,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Carica foto"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:editable="false"
         android:id="@+id/fileNameInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -39,7 +40,7 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#333333"
-        android:text="Carica"
+        android:text="Scegli immagine"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +69,7 @@
                 android:scaleType="centerCrop" />
 
             <LinearLayout
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -84,6 +86,8 @@
                     android:textSize="18sp" />
 
                 <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
                     android:id="@+id/previewCounterText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

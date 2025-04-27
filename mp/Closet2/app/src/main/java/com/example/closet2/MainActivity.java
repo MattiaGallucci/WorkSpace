@@ -8,6 +8,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,6 +21,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import android.os.Bundle;
+
+import android.app.AlarmManager;
+import android.content.Intent;
+import android.os.Build;
+import android.provider.Settings;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,14 +49,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Inizializza il Navigation Controller
+        // Initialize Navigation Controller
         NavHostFragment navHostFragment =
                 (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
         if (navHostFragment != null) {
             navController = navHostFragment.getNavController();
         }
-        // Richiedi i permessi necessari
+
+        // Request required permissions
         requestRequiredPermissions();
+
+        // Check and request alarm permission before scheduling
+        if (checkAlarmPermission()) {
+            // Schedule daily notification check
+            NotificationHelper.scheduleDailyNotificationCheck(this);
+        }
+    }
+
+    private boolean checkAlarmPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+            if (!alarmManager.canScheduleExactAlarms()) {
+                Toast.makeText(this, "Per favore concedi il permesso per le notifiche giornaliere", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(Settings.ACTION_REQUEST_SCHEDULE_EXACT_ALARM);
+                startActivity(intent);
+                return false;
+            }
+        }
+        return true;
     }
 
     private void requestRequiredPermissions() {

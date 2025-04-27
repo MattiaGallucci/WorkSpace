@@ -1,8 +1,10 @@
 package com.example.closet2;
 
 // ... existing imports ...
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.view.LayoutInflater;
@@ -21,6 +23,11 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
 import com.bumptech.glide.Glide;
+
+import android.util.Log;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 
 public class UploadFragment extends Fragment {
 
@@ -112,19 +119,114 @@ public class UploadFragment extends Fragment {
         );
     }
 
-    private void openImagePicker() {
-        // Launch the image picker
-        getContent.launch("image/*");
+    private void updatePreviewCounter() {
+        previewCounterText.setText(String.valueOf(previewCounter));
     }
 
     private Uri persistImage(Uri sourceUri) {
-        // For simplicity, we'll just return the original URI
-        // In a production app, you might want to copy the file to your app's storage
-        // to ensure it remains accessible even if the original is deleted
+        // For Photo Picker URIs, we need to take a different approach
+        if (sourceUri.toString().contains("content://media/picker")) {
+            try {
+                // Create a copy of the image in your app's cache directory
+                InputStream inputStream = requireContext().getContentResolver().openInputStream(sourceUri);
+                if (inputStream != null) {
+                    // Create a file in the app's cache directory
+                    File cacheDir = requireContext().getCacheDir();
+                    File outputFile = new File(cacheDir, "image_" + System.currentTimeMillis() + ".jpg");
+
+                    // Copy the content
+                    FileOutputStream outputStream = new FileOutputStream(outputFile);
+                    byte[] buffer = new byte[4 * 1024];
+                    int read;
+                    while ((read = inputStream.read(buffer)) != -1) {
+                        outputStream.write(buffer, 0, read);
+                    }
+                    outputStream.flush();
+
+                    // Close streams
+                    inputStream.close();
+                    outputStream.close();
+
+                    // Return the URI of the copied file
+                    return Uri.fromFile(outputFile);
+                }
+            } catch (Exception e) {
+                Log.e("UploadFragment", "Error copying image", e);
+            }
+        }
+
+        // If not a photo picker URI or if copying failed, return the original URI
         return sourceUri;
     }
 
-    private void updatePreviewCounter() {
-        previewCounterText.setText(String.valueOf(previewCounter));
+    // Add this constant in your class
+    private static final int PICK_IMAGE_REQUEST = 1;
+
+    // Replace your existing image picker method
+    private void openImagePicker() {
+        Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("image/*");
+        startActivityForResult(intent, PICK_IMAGE_REQUEST);
+    }
+
+    // Add this method to handle the result
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data != null && data.getData() != null) {
+            Uri sourceUri = data.getData();
+
+            // Copy the image to app's internal storage
+            selectedImageUri = copyImageToInternalStorage(sourceUri);
+
+            // Show the preview of the selected image
+            Glide.with(requireContext())
+                    .load(selectedImageUri)
+                    .centerCrop()
+                    .into(previewImage);
+        }
+    }
+
+    // Add this method to copy the image
+    private Uri copyImageToInternalStorage(Uri sourceUri) {
+        try {
+            // Get input stream from the source URI
+            InputStream inputStream = requireContext().getContentResolver().openInputStream(sourceUri);
+            if (inputStream == null) {
+                Log.e("UploadFragment", "Failed to open input stream");
+                return null;
+            }
+
+            // Create a directory for images if it doesn't exist
+            File imagesDir = new File(requireContext().getFilesDir(), "images");
+            if (!imagesDir.exists()) {
+                imagesDir.mkdirs();
+            }
+
+            // Create a file with a unique name
+            String fileName = "image_" + System.currentTimeMillis() + ".jpg";
+            File destFile = new File(imagesDir, fileName);
+
+            // Copy the file
+            FileOutputStream outputStream = new FileOutputStream(destFile);
+            byte[] buffer = new byte[4 * 1024];
+            int read;
+            while ((read = inputStream.read(buffer)) != -1) {
+                outputStream.write(buffer, 0, read);
+            }
+
+            // Close streams
+            outputStream.flush();
+            inputStream.close();
+            outputStream.close();
+
+            // Return URI to the copied file
+            return Uri.fromFile(destFile);
+        } catch (Exception e) {
+            Log.e("UploadFragment", "Error copying image", e);
+            return null;
+        }
     }
 }

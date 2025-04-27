@@ -3,10 +3,12 @@ package com.example.closet2;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import java.io.File;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -56,6 +58,21 @@ public class DataManager {
     }
 
     public CardItem addCard(Uri imageUri) {
+        // If it's a file URI, make sure it's accessible
+        String uriString = imageUri.toString();
+        if (uriString.startsWith("file:")) {
+            // For file URIs, we need to ensure the file is accessible
+            try {
+                File file = new File(imageUri.getPath());
+                if (file.exists()) {
+                    // File exists, we can use it
+                    imageUri = Uri.fromFile(file);
+                }
+            } catch (Exception e) {
+                Log.e("DataManager", "Error with file URI", e);
+            }
+        }
+
         // Create a new card with the image URI
         CardItem newCard = new CardItem(UUID.randomUUID().toString(), imageUri);
         cardItems.add(newCard);
@@ -87,5 +104,29 @@ public class DataManager {
 
     public void setNotificationThreshold(int threshold) {
         sharedPreferences.edit().putInt(NOTIFICATION_THRESHOLD_KEY, threshold).apply();
+    }
+
+    public CardItem getCardById(String id) {
+        for (CardItem item : cardItems) {
+            if (item.getId().equals(id)) {
+                return item;
+            }
+        }
+        return null;
+    }
+
+    public void deleteCard(String id) {
+        CardItem itemToRemove = null;
+        for (CardItem item : cardItems) {
+            if (item.getId().equals(id)) {
+                itemToRemove = item;
+                break;
+            }
+        }
+
+        if (itemToRemove != null) {
+            cardItems.remove(itemToRemove);
+            saveCards();
+        }
     }
 }

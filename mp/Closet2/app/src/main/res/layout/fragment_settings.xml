@@ -29,6 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/settingsTitle">
 
         <LinearLayout
+            android:background="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -41,6 +42,7 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:textColor="#9e9e9e"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -54,6 +56,8 @@
             </LinearLayout>
 
             <EditText
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
                 android:id="@+id/thresholdInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,6 +75,8 @@
                 android:backgroundTint="#004D40"
                 android:text="Salva"
                 android:textColor="@android:color/white" />
+
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
